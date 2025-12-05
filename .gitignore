@@ -20,4 +20,6 @@
 *.blg
 *.backup
 .latexmkrc
+.vscode/
+*.pt
 
