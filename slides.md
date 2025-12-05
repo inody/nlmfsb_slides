@@ -10,22 +10,24 @@ transition: fade
 
 ## Nonlocal Mean-Field Schrödinger Bridge with Learned Interactions
 
+<br>
+
 ### Daisuke Inoue
 
 <br>
 
 ### Outline
 
-- Extended Mean-Field Schrödinger Bridge to handle nonlocal interactions via **surrogate modeling**
+- Extended Mean-Field Schrödinger Bridge to handle nonlocal interactions
 - Proposed a **four-stage alternating algorithm** reducing complexity from $O(N^2)$ to $O(N)$, where $N$ is the number of particles
-- Provided **rigorous stability analysis** with Gronwall-type error bounds
+- Provided **stability analysis** with Gronwall-type error bounds
 - Demonstrated **~70% training time reduction** while maintaining trajectory fidelity
 
 ---
 
 # Problem Statement
 
-## Optimal transport of interacting particles:
+## Optimal transport of interacting particles
 
 For $N$ agents with controls $\{\alpha_i\}$ and empirical measure $m_t = \tfrac{1}{N}\sum_{j=1}^N \delta_{x_j(t)}$:
 $$
@@ -37,14 +39,34 @@ dx_i = \big(\alpha_i + f(x_i,t, m_t)\big)\,dt + \sigma\, dW_i,\quad
 x_i(0)\sim\rho_0,\; x_i(T)\sim\rho_T.
 $$
 
-- If $f=F=0$, this reduces to the classical Schrödinger Bridge, i.e., entropy-regularized OT minimizing $\mathrm{KL}(\rho_0\|\rho_T)$ along diffusion paths.
+## Applications
+
+- **Control/Navigation** Swarm robotics control with collision avoidance / pedestrian navigation through complex environments
+- **Reconstruction** Cell data interpolation from sparse observations
 
 ---
+
+## Mathematical Motivation
+
+- If $f=F=0$, this reduces to the classical Schrödinger Bridge, i.e., entropy-regularized OT minimizing $\mathrm{KL}(\rho_0\|\rho_T)$ along diffusion paths.
+
+- Liu et al. (2022): DeepGSB for **local** interactions：$f(x,t,\rho_t) = f(x,t,\rho(x,t))$
+- We want to build efficient solver for **nonlocal** interactions: 
+   $$
+   f(x^{(i)},t,\rho_t) = \frac{1}{N}\sum_{j=1}^N k(x^{(i)},x^{(j)}) \quad \Rightarrow \quad O(N^2) \text{ cost}
+   $$
+
+- **Problem**: Intractable for large-scale systems
+- **Objective**: Develop an algorithm that remains fast even for large $N$
+
+
+---
+
+# Background
 
 ## Mean-Field Schrödinger Bridge (MFSB)
 
 As $N\to\infty$, the empirical interaction $m_t$ converges to a density $\rho_t$, yielding the MFSB formulation:
-
 
 $$
 \begin{aligned}
@@ -54,54 +76,16 @@ $$
 \end{aligned}
 $$
 
-### Key Challenge: Nonlocal Interactions
+- The nonlocal interaction function is expressed as $f(x,t,\rho_t)=\int k(x,y)\rho(y,t)dy$.
+- Convergence as $N\to\infty$ (propagation of chaos) is studied by Camilo et al. (2024).
 
-- **Local**: $f(x,t,\rho_t) = f(x,t,\rho(x,t))$ depends only on local density
-- **Nonlocal**: $f(x,t,\rho_t) = \int k(x,y)\rho(y,t)dy$ requires $O(N^2)$ pairwise evaluations
-
----
-
-# Applications and Motivation
-
-## Engineering Applications
-
-- **Swarm robotics** with collision avoidance
-- **Crowd navigation** through complex environments
-- **Trajectory reconstruction** from aggregate observations
-
-## Mathematical Context
-
-- Extends classical Schrödinger Bridge ($f=F=0$) to interacting systems
-- Liu et al. (2022): DeepGSB for **local** interactions
-- **Our goal**: Efficient solver for **nonlocal** interactions
 
 ---
 
-# The Computational Bottleneck
+## FBSDE Characterization
 
-## Nonlocal Interactions are Expensive
-
-At each time step, for each of $N$ particles:
-$$
-f(x^{(i)},t,\rho_t) = \frac{1}{N}\sum_{j=1}^N k(x^{(i)},x^{(j)}) \quad \Rightarrow \quad O(N^2) \text{ cost}
-$$
-
-## Total Training Complexity
-
-With Euler-Maruyama integration over $K$ time steps and $M_{\text{iter}}$ iterations:
-$$
-\text{Total cost} = O(N^2 \cdot K \cdot M_{\text{iter}})
-$$
-
-**Problem**: Intractable for large-scale systems
-
----
-
-# Background: DeepGSB Framework
-
-## FBSDE Characterization (Liu et al. 2022)
-
-Mean-field limit yields coupled forward-backward SDEs:
+- For MFSB, Liu et al. (2022) derived FBSDE Characterization.
+- From the stationarity conditions of Lagrangian, we obtain the HJB–FP system, and its solution is equivalent to a pair of FBSDEs:
 
 **Forward** (from $X_0 \sim \rho_0$):
 $$
@@ -114,20 +98,16 @@ $$
 
 **Backward** (from $\bar{X}_0 \sim \rho_T$) derived similarly.
 
-- $Y, \hat{Y}$: Log-density potentials
-- $Z = \sigma\nabla Y$, $\hat{Z} = \sigma\nabla\hat{Y}$: Gradients
-- Optimal control: $\alpha^* = \sigma Z$
+- $Y$ solves the HJB equation (Value function), and $\hat{Y}$ plays the dual role in the backward process.
+- $Z = \sigma\nabla Y$, $\hat{Z} = \sigma\nabla\hat{Y}$: Gradients / $\alpha^* = \sigma Z$: Optimal control
 
 ---
 
 ## Neural Network Parametrization
 
-### Function Approximation
+- Replace unknown functions with neural networks: $Y_\theta(x,t)$, $Z_\theta(x,t)$, $\hat{Y}_\phi(x,t)$, $\hat{Z}_\phi(x,t)$
 
-Replace unknown functions with neural networks: $Y_\theta(x,t)$, $Z_\theta(x,t)$, $\hat{Y}_\phi(x,t)$, $\hat{Z}_\phi(x,t)$
-
-### Loss Functions
-
+- Loss Functions: 
 $$\mathcal{L}_{\text{total}} = \lambda_{\text{IPF}}\mathcal{L}_{\text{IPF}} + \lambda_{\text{TD}}\mathcal{L}_{\text{TD}} + \lambda_{\text{FK}}\mathcal{L}_{\text{FK}}$$
 
 
@@ -166,7 +146,7 @@ $$
 
 ---
 
-## Original Alternating Training
+## DeepGSB Algorithm
 
 **Two-stage cycle**:
 
@@ -179,6 +159,8 @@ $$
    - Update $(Y_\theta, Z_\theta)$ to minimize $\mathcal{L}(\theta)$
 
 **Limitation**: Each trajectory simulation requires $O(N^2 K)$ interaction evaluations.
+   - $N$: Number of Agents
+   - $K$: Time steps
 
 ---
 
@@ -207,7 +189,7 @@ $$
 
 ## Four-Stage Alternating Algorithm
 
-**Extended training loop**:
+**Four-stage cycle**:
 
 1. **Backward drift update** ($\phi$) (Repeat $M_{\text{SDE}}$ times)
    Simulate forward SDE with learned $Y_\theta, Z_\theta, \hat{f}_\psi, \hat{F}_\psi$ → Update $\hat{Y}_\phi, \hat{Z}_\phi$
@@ -225,10 +207,12 @@ $$
 
 ## Computational Complexity Analysis
 
+
 ### **Cost Components**
 
-- Analytical interaction: $C_{\text{ana}} = O(N^2 K)$
-- NN forward/backward: $C_{\text{NN}} = O(NKH^2L)$ where $H$ = width, $L$ = layers
+For $N$ = number of agents, $K$ = time steps, $H$ = width, $L$ = layers:
+- Analytical interaction: $C_{\text{ana}} = O(K N^2 (d + d_{\mathrm{out}}))$
+- NN forward/backward: $C_{\text{NN}} = O(K N (d H + (L-1)H^2 + H d_{\mathrm{out}}))$
 
 ### **Per Directional Pass**
 
