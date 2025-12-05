@@ -25,9 +25,26 @@ transition: fade
 
 # Problem Statement
 
+## Optimal transport of interacting particles:
+
+For $N$ agents with controls $\{\alpha_i\}$ and empirical measure $m_t = \tfrac{1}{N}\sum_{j=1}^N \delta_{x_j(t)}$:
+$$
+\text{min}_{\{\alpha_i\}} \sum_{i=1}^N \bbE\!\left[\int_0^T \frac{1}{2\sigma^2}\|\alpha_i\|^2 + F(x_i,t, m_t)\,dt\right]
+$$
+subject to
+$$
+dx_i = \big(\alpha_i + f(x_i,t, m_t)\big)\,dt + \sigma\, dW_i,\quad
+x_i(0)\sim\rho_0,\; x_i(T)\sim\rho_T.
+$$
+
+- If $f=F=0$, this reduces to the classical Schrödinger Bridge, i.e., entropy-regularized OT minimizing $\mathrm{KL}(\rho_0\|\rho_T)$ along diffusion paths.
+
+---
+
 ## Mean-Field Schrödinger Bridge (MFSB)
 
-Optimal transport of interacting particles between prescribed distributions:
+As $N\to\infty$, the empirical interaction $m_t$ converges to a density $\rho_t$, yielding the MFSB formulation:
+
 
 $$
 \begin{aligned}
