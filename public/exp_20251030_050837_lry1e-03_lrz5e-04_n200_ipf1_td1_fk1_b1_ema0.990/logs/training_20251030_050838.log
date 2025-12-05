@@ -1,0 +1,1320 @@
+2025-10-30 05:08:38,111 - nlmfsp.trainer - INFO - Logging initialized. Log file: outputs/experiments/analytical_gmm_navigation/exp_20251030_050837_lry1e-03_lrz5e-04_n200_ipf1_td1_fk1_b1_ema0.990/logs/training_20251030_050838.log
+2025-10-30 05:08:38,119 - nlmfsp.trainer - INFO - ======================================================================
+2025-10-30 05:08:38,119 - nlmfsp.trainer - INFO - Starting Training
+2025-10-30 05:08:38,119 - nlmfsp.trainer - INFO - ======================================================================
+2025-10-30 05:08:38,119 - nlmfsp.trainer - INFO - Configuration:
+2025-10-30 05:08:38,119 - nlmfsp.trainer - INFO -   Dimension: 2
+2025-10-30 05:08:38,119 - nlmfsp.trainer - INFO -   Time horizon: T=1.0
+2025-10-30 05:08:38,119 - nlmfsp.trainer - INFO -   Time steps: 50
+2025-10-30 05:08:38,119 - nlmfsp.trainer - INFO -   Outer iterations: 100
+2025-10-30 05:08:38,119 - nlmfsp.trainer - INFO -   Inner steps: 250
+2025-10-30 05:08:38,119 - nlmfsp.trainer - INFO -   Interaction steps: 0
+2025-10-30 05:08:38,119 - nlmfsp.trainer - INFO -   N (agents): 200
+2025-10-30 05:08:38,119 - nlmfsp.trainer - INFO - 
+2025-10-30 05:08:38,119 - nlmfsp.trainer - INFO - Iteration 1/100
+2025-10-30 05:10:25,487 - nlmfsp.trainer - INFO -   L_IPF (fwd): 44.537670
+2025-10-30 05:10:25,487 - nlmfsp.trainer - INFO -   L_IPF (bwd): 108.102638
+2025-10-30 05:10:25,487 - nlmfsp.trainer - INFO -   L_TD  (bwd): 740.350220
+2025-10-30 05:10:25,487 - nlmfsp.trainer - INFO -   L_TD  (fwd): 766.798950
+2025-10-30 05:10:25,487 - nlmfsp.trainer - INFO -   L_FK (fwd): 3.696610
+2025-10-30 05:10:25,487 - nlmfsp.trainer - INFO -   L_FK (bwd): 1.871820
+2025-10-30 05:10:25,487 - nlmfsp.trainer - INFO -   L_Boundary (fwd): 177.917328
+2025-10-30 05:10:25,487 - nlmfsp.trainer - INFO -   L_Boundary (bwd): 1361.282349
+2025-10-30 05:10:25,487 - nlmfsp.trainer - INFO -   Interaction learning: skipped
+2025-10-30 05:10:25,487 - nlmfsp.trainer - INFO -   Time: 107.37s
+2025-10-30 05:10:25,487 - nlmfsp.trainer - INFO - 
+2025-10-30 05:10:25,507 - nlmfsp.trainer - INFO - Checkpoint saved: outputs/experiments/analytical_gmm_navigation/exp_20251030_050837_lry1e-03_lrz5e-04_n200_ipf1_td1_fk1_b1_ema0.990/checkpoints/checkpoint_0001.pt
+2025-10-30 05:10:27,463 - nlmfsp.trainer - INFO - Iteration 2/100
+2025-10-30 05:12:14,481 - nlmfsp.trainer - INFO -   L_IPF (fwd): 19.225048
+2025-10-30 05:12:14,482 - nlmfsp.trainer - INFO -   L_IPF (bwd): 73.018585
+2025-10-30 05:12:14,482 - nlmfsp.trainer - INFO -   L_TD  (bwd): 56.365685
+2025-10-30 05:12:14,482 - nlmfsp.trainer - INFO -   L_TD  (fwd): 2960.460205
+2025-10-30 05:12:14,482 - nlmfsp.trainer - INFO -   L_FK (fwd): 12.540429
+2025-10-30 05:12:14,482 - nlmfsp.trainer - INFO -   L_FK (bwd): 1.910550
+2025-10-30 05:12:14,482 - nlmfsp.trainer - INFO -   L_Boundary (fwd): 204.651520
+2025-10-30 05:12:14,482 - nlmfsp.trainer - INFO -   L_Boundary (bwd): 39.029213
+2025-10-30 05:12:14,482 - nlmfsp.trainer - INFO -   Interaction learning: skipped
+2025-10-30 05:12:14,482 - nlmfsp.trainer - INFO -   Time: 107.02s
+2025-10-30 05:12:14,482 - nlmfsp.trainer - INFO - 
+2025-10-30 05:12:14,500 - nlmfsp.trainer - INFO - Checkpoint saved: outputs/experiments/analytical_gmm_navigation/exp_20251030_050837_lry1e-03_lrz5e-04_n200_ipf1_td1_fk1_b1_ema0.990/checkpoints/checkpoint_0002.pt
+2025-10-30 05:12:16,393 - nlmfsp.trainer - INFO - Iteration 3/100
+2025-10-30 05:14:03,425 - nlmfsp.trainer - INFO -   L_IPF (fwd): 5.976063
+2025-10-30 05:14:03,425 - nlmfsp.trainer - INFO -   L_IPF (bwd): 27.706053
+2025-10-30 05:14:03,425 - nlmfsp.trainer - INFO -   L_TD  (bwd): 1647.880127
+2025-10-30 05:14:03,425 - nlmfsp.trainer - INFO -   L_TD  (fwd): 1248.735107
+2025-10-30 05:14:03,425 - nlmfsp.trainer - INFO -   L_FK (fwd): 21.200865
+2025-10-30 05:14:03,425 - nlmfsp.trainer - INFO -   L_FK (bwd): 7.182775
+2025-10-30 05:14:03,425 - nlmfsp.trainer - INFO -   L_Boundary (fwd): 55.336845
+2025-10-30 05:14:03,425 - nlmfsp.trainer - INFO -   L_Boundary (bwd): 1879.315674
+2025-10-30 05:14:03,426 - nlmfsp.trainer - INFO -   Interaction learning: skipped
+2025-10-30 05:14:03,426 - nlmfsp.trainer - INFO -   Time: 107.03s
+2025-10-30 05:14:03,426 - nlmfsp.trainer - INFO - 
+2025-10-30 05:14:03,444 - nlmfsp.trainer - INFO - Checkpoint saved: outputs/experiments/analytical_gmm_navigation/exp_20251030_050837_lry1e-03_lrz5e-04_n200_ipf1_td1_fk1_b1_ema0.990/checkpoints/checkpoint_0003.pt
+2025-10-30 05:14:05,589 - nlmfsp.trainer - INFO - Iteration 4/100
+2025-10-30 05:15:52,805 - nlmfsp.trainer - INFO -   L_IPF (fwd): 2.353434
+2025-10-30 05:15:52,805 - nlmfsp.trainer - INFO -   L_IPF (bwd): 9.417060
+2025-10-30 05:15:52,805 - nlmfsp.trainer - INFO -   L_TD  (bwd): 1521.955811
+2025-10-30 05:15:52,805 - nlmfsp.trainer - INFO -   L_TD  (fwd): 973.573547
+2025-10-30 05:15:52,805 - nlmfsp.trainer - INFO -   L_FK (fwd): 23.411751
+2025-10-30 05:15:52,805 - nlmfsp.trainer - INFO -   L_FK (bwd): 7.890352
+2025-10-30 05:15:52,805 - nlmfsp.trainer - INFO -   L_Boundary (fwd): 7.628814
+2025-10-30 05:15:52,805 - nlmfsp.trainer - INFO -   L_Boundary (bwd): 296.955505
+2025-10-30 05:15:52,805 - nlmfsp.trainer - INFO -   Interaction learning: skipped
+2025-10-30 05:15:52,805 - nlmfsp.trainer - INFO -   Time: 107.22s
+2025-10-30 05:15:52,805 - nlmfsp.trainer - INFO - 
+2025-10-30 05:15:52,823 - nlmfsp.trainer - INFO - Checkpoint saved: outputs/experiments/analytical_gmm_navigation/exp_20251030_050837_lry1e-03_lrz5e-04_n200_ipf1_td1_fk1_b1_ema0.990/checkpoints/checkpoint_0004.pt
+2025-10-30 05:15:54,933 - nlmfsp.trainer - INFO - Iteration 5/100
+2025-10-30 05:17:42,352 - nlmfsp.trainer - INFO -   L_IPF (fwd): 1.388223
+2025-10-30 05:17:42,352 - nlmfsp.trainer - INFO -   L_IPF (bwd): 4.111280
+2025-10-30 05:17:42,353 - nlmfsp.trainer - INFO -   L_TD  (bwd): 827.507996
+2025-10-30 05:17:42,353 - nlmfsp.trainer - INFO -   L_TD  (fwd): 841.402405
+2025-10-30 05:17:42,353 - nlmfsp.trainer - INFO -   L_FK (fwd): 23.887310
+2025-10-30 05:17:42,353 - nlmfsp.trainer - INFO -   L_FK (bwd): 7.544447
+2025-10-30 05:17:42,353 - nlmfsp.trainer - INFO -   L_Boundary (fwd): 4.535193
+2025-10-30 05:17:42,353 - nlmfsp.trainer - INFO -   L_Boundary (bwd): 177.711472
+2025-10-30 05:17:42,353 - nlmfsp.trainer - INFO -   Interaction learning: skipped
+2025-10-30 05:17:42,353 - nlmfsp.trainer - INFO -   Time: 107.42s
+2025-10-30 05:17:42,353 - nlmfsp.trainer - INFO - 
+2025-10-30 05:17:42,371 - nlmfsp.trainer - INFO - Checkpoint saved: outputs/experiments/analytical_gmm_navigation/exp_20251030_050837_lry1e-03_lrz5e-04_n200_ipf1_td1_fk1_b1_ema0.990/checkpoints/checkpoint_0005.pt
+2025-10-30 05:17:44,355 - nlmfsp.trainer - INFO - Iteration 6/100
+2025-10-30 05:19:31,791 - nlmfsp.trainer - INFO -   L_IPF (fwd): 1.223623
+2025-10-30 05:19:31,791 - nlmfsp.trainer - INFO -   L_IPF (bwd): 2.417747
+2025-10-30 05:19:31,791 - nlmfsp.trainer - INFO -   L_TD  (bwd): 552.684692
+2025-10-30 05:19:31,791 - nlmfsp.trainer - INFO -   L_TD  (fwd): 724.100830
+2025-10-30 05:19:31,791 - nlmfsp.trainer - INFO -   L_FK (fwd): 22.285545
+2025-10-30 05:19:31,791 - nlmfsp.trainer - INFO -   L_FK (bwd): 7.930264
+2025-10-30 05:19:31,791 - nlmfsp.trainer - INFO -   L_Boundary (fwd): 3.508153
+2025-10-30 05:19:31,791 - nlmfsp.trainer - INFO -   L_Boundary (bwd): 101.378136
+2025-10-30 05:19:31,791 - nlmfsp.trainer - INFO -   Interaction learning: skipped
+2025-10-30 05:19:31,791 - nlmfsp.trainer - INFO -   Time: 107.44s
+2025-10-30 05:19:31,791 - nlmfsp.trainer - INFO - 
+2025-10-30 05:19:31,809 - nlmfsp.trainer - INFO - Checkpoint saved: outputs/experiments/analytical_gmm_navigation/exp_20251030_050837_lry1e-03_lrz5e-04_n200_ipf1_td1_fk1_b1_ema0.990/checkpoints/checkpoint_0006.pt
+2025-10-30 05:19:33,899 - nlmfsp.trainer - INFO - Iteration 7/100
+2025-10-30 05:21:21,404 - nlmfsp.trainer - INFO -   L_IPF (fwd): 1.214961
+2025-10-30 05:21:21,404 - nlmfsp.trainer - INFO -   L_IPF (bwd): 1.976492
+2025-10-30 05:21:21,404 - nlmfsp.trainer - INFO -   L_TD  (bwd): 390.307831
+2025-10-30 05:21:21,404 - nlmfsp.trainer - INFO -   L_TD  (fwd): 657.190674
+2025-10-30 05:21:21,404 - nlmfsp.trainer - INFO -   L_FK (fwd): 20.971418
+2025-10-30 05:21:21,404 - nlmfsp.trainer - INFO -   L_FK (bwd): 8.282464
+2025-10-30 05:21:21,404 - nlmfsp.trainer - INFO -   L_Boundary (fwd): 4.317339
+2025-10-30 05:21:21,404 - nlmfsp.trainer - INFO -   L_Boundary (bwd): 64.302719
+2025-10-30 05:21:21,404 - nlmfsp.trainer - INFO -   Interaction learning: skipped
+2025-10-30 05:21:21,404 - nlmfsp.trainer - INFO -   Time: 107.50s
+2025-10-30 05:21:21,404 - nlmfsp.trainer - INFO - 
+2025-10-30 05:21:21,423 - nlmfsp.trainer - INFO - Checkpoint saved: outputs/experiments/analytical_gmm_navigation/exp_20251030_050837_lry1e-03_lrz5e-04_n200_ipf1_td1_fk1_b1_ema0.990/checkpoints/checkpoint_0007.pt
+2025-10-30 05:21:23,527 - nlmfsp.trainer - INFO - Iteration 8/100
+2025-10-30 05:23:11,056 - nlmfsp.trainer - INFO -   L_IPF (fwd): 1.203691
+2025-10-30 05:23:11,056 - nlmfsp.trainer - INFO -   L_IPF (bwd): 1.778645
+2025-10-30 05:23:11,056 - nlmfsp.trainer - INFO -   L_TD  (bwd): 301.811096
+2025-10-30 05:23:11,056 - nlmfsp.trainer - INFO -   L_TD  (fwd): 603.493469
+2025-10-30 05:23:11,057 - nlmfsp.trainer - INFO -   L_FK (fwd): 20.550478
+2025-10-30 05:23:11,057 - nlmfsp.trainer - INFO -   L_FK (bwd): 8.616053
+2025-10-30 05:23:11,057 - nlmfsp.trainer - INFO -   L_Boundary (fwd): 7.694025
+2025-10-30 05:23:11,057 - nlmfsp.trainer - INFO -   L_Boundary (bwd): 69.072357
+2025-10-30 05:23:11,057 - nlmfsp.trainer - INFO -   Interaction learning: skipped
+2025-10-30 05:23:11,057 - nlmfsp.trainer - INFO -   Time: 107.53s
+2025-10-30 05:23:11,057 - nlmfsp.trainer - INFO - 
+2025-10-30 05:23:11,075 - nlmfsp.trainer - INFO - Checkpoint saved: outputs/experiments/analytical_gmm_navigation/exp_20251030_050837_lry1e-03_lrz5e-04_n200_ipf1_td1_fk1_b1_ema0.990/checkpoints/checkpoint_0008.pt
+2025-10-30 05:23:13,056 - nlmfsp.trainer - INFO - Iteration 9/100
+2025-10-30 05:25:00,556 - nlmfsp.trainer - INFO -   L_IPF (fwd): 1.141235
+2025-10-30 05:25:00,556 - nlmfsp.trainer - INFO -   L_IPF (bwd): 1.647736
+2025-10-30 05:25:00,556 - nlmfsp.trainer - INFO -   L_TD  (bwd): 270.220215
+2025-10-30 05:25:00,556 - nlmfsp.trainer - INFO -   L_TD  (fwd): 545.133545
+2025-10-30 05:25:00,556 - nlmfsp.trainer - INFO -   L_FK (fwd): 19.942554
+2025-10-30 05:25:00,556 - nlmfsp.trainer - INFO -   L_FK (bwd): 8.922773
+2025-10-30 05:25:00,556 - nlmfsp.trainer - INFO -   L_Boundary (fwd): 6.194262
+2025-10-30 05:25:00,556 - nlmfsp.trainer - INFO -   L_Boundary (bwd): 59.907742
+2025-10-30 05:25:00,557 - nlmfsp.trainer - INFO -   Interaction learning: skipped
+2025-10-30 05:25:00,557 - nlmfsp.trainer - INFO -   Time: 107.50s
+2025-10-30 05:25:00,557 - nlmfsp.trainer - INFO - 
+2025-10-30 05:25:00,575 - nlmfsp.trainer - INFO - Checkpoint saved: outputs/experiments/analytical_gmm_navigation/exp_20251030_050837_lry1e-03_lrz5e-04_n200_ipf1_td1_fk1_b1_ema0.990/checkpoints/checkpoint_0009.pt
+2025-10-30 05:25:02,742 - nlmfsp.trainer - INFO - Iteration 10/100
+2025-10-30 05:26:50,233 - nlmfsp.trainer - INFO -   L_IPF (fwd): 1.082437
+2025-10-30 05:26:50,233 - nlmfsp.trainer - INFO -   L_IPF (bwd): 1.493274
+2025-10-30 05:26:50,233 - nlmfsp.trainer - INFO -   L_TD  (bwd): 262.247498
+2025-10-30 05:26:50,233 - nlmfsp.trainer - INFO -   L_TD  (fwd): 481.878754
+2025-10-30 05:26:50,233 - nlmfsp.trainer - INFO -   L_FK (fwd): 19.231903
+2025-10-30 05:26:50,233 - nlmfsp.trainer - INFO -   L_FK (bwd): 8.897822
+2025-10-30 05:26:50,233 - nlmfsp.trainer - INFO -   L_Boundary (fwd): 5.902306
+2025-10-30 05:26:50,233 - nlmfsp.trainer - INFO -   L_Boundary (bwd): 68.418159
+2025-10-30 05:26:50,233 - nlmfsp.trainer - INFO -   Interaction learning: skipped
+2025-10-30 05:26:50,233 - nlmfsp.trainer - INFO -   Time: 107.49s
+2025-10-30 05:26:50,233 - nlmfsp.trainer - INFO - 
+2025-10-30 05:26:50,252 - nlmfsp.trainer - INFO - Checkpoint saved: outputs/experiments/analytical_gmm_navigation/exp_20251030_050837_lry1e-03_lrz5e-04_n200_ipf1_td1_fk1_b1_ema0.990/checkpoints/checkpoint_0010.pt
+2025-10-30 05:26:52,311 - nlmfsp.trainer - INFO - Iteration 11/100
+2025-10-30 05:28:39,828 - nlmfsp.trainer - INFO -   L_IPF (fwd): 1.086423
+2025-10-30 05:28:39,828 - nlmfsp.trainer - INFO -   L_IPF (bwd): 1.356832
+2025-10-30 05:28:39,828 - nlmfsp.trainer - INFO -   L_TD  (bwd): 263.311829
+2025-10-30 05:28:39,828 - nlmfsp.trainer - INFO -   L_TD  (fwd): 430.971375
+2025-10-30 05:28:39,828 - nlmfsp.trainer - INFO -   L_FK (fwd): 18.429985
+2025-10-30 05:28:39,828 - nlmfsp.trainer - INFO -   L_FK (bwd): 8.918501
+2025-10-30 05:28:39,828 - nlmfsp.trainer - INFO -   L_Boundary (fwd): 8.539957
+2025-10-30 05:28:39,828 - nlmfsp.trainer - INFO -   L_Boundary (bwd): 48.732197
+2025-10-30 05:28:39,828 - nlmfsp.trainer - INFO -   Interaction learning: skipped
+2025-10-30 05:28:39,828 - nlmfsp.trainer - INFO -   Time: 107.52s
+2025-10-30 05:28:39,828 - nlmfsp.trainer - INFO - 
+2025-10-30 05:28:39,846 - nlmfsp.trainer - INFO - Checkpoint saved: outputs/experiments/analytical_gmm_navigation/exp_20251030_050837_lry1e-03_lrz5e-04_n200_ipf1_td1_fk1_b1_ema0.990/checkpoints/checkpoint_0011.pt
+2025-10-30 05:28:41,907 - nlmfsp.trainer - INFO - Iteration 12/100
+2025-10-30 05:30:29,537 - nlmfsp.trainer - INFO -   L_IPF (fwd): 1.127937
+2025-10-30 05:30:29,537 - nlmfsp.trainer - INFO -   L_IPF (bwd): 1.344882
+2025-10-30 05:30:29,537 - nlmfsp.trainer - INFO -   L_TD  (bwd): 251.677124
+2025-10-30 05:30:29,537 - nlmfsp.trainer - INFO -   L_TD  (fwd): 381.350677
+2025-10-30 05:30:29,537 - nlmfsp.trainer - INFO -   L_FK (fwd): 17.391310
+2025-10-30 05:30:29,537 - nlmfsp.trainer - INFO -   L_FK (bwd): 8.635295
+2025-10-30 05:30:29,537 - nlmfsp.trainer - INFO -   L_Boundary (fwd): 9.116618
+2025-10-30 05:30:29,537 - nlmfsp.trainer - INFO -   L_Boundary (bwd): 39.891155
+2025-10-30 05:30:29,537 - nlmfsp.trainer - INFO -   Interaction learning: skipped
+2025-10-30 05:30:29,537 - nlmfsp.trainer - INFO -   Time: 107.63s
+2025-10-30 05:30:29,537 - nlmfsp.trainer - INFO - 
+2025-10-30 05:30:29,555 - nlmfsp.trainer - INFO - Checkpoint saved: outputs/experiments/analytical_gmm_navigation/exp_20251030_050837_lry1e-03_lrz5e-04_n200_ipf1_td1_fk1_b1_ema0.990/checkpoints/checkpoint_0012.pt
+2025-10-30 05:30:31,463 - nlmfsp.trainer - INFO - Iteration 13/100
+2025-10-30 05:32:19,071 - nlmfsp.trainer - INFO -   L_IPF (fwd): 1.133377
+2025-10-30 05:32:19,071 - nlmfsp.trainer - INFO -   L_IPF (bwd): 1.289395
+2025-10-30 05:32:19,071 - nlmfsp.trainer - INFO -   L_TD  (bwd): 221.731384
+2025-10-30 05:32:19,071 - nlmfsp.trainer - INFO -   L_TD  (fwd): 332.508240
+2025-10-30 05:32:19,071 - nlmfsp.trainer - INFO -   L_FK (fwd): 16.564035
+2025-10-30 05:32:19,071 - nlmfsp.trainer - INFO -   L_FK (bwd): 8.246052
+2025-10-30 05:32:19,071 - nlmfsp.trainer - INFO -   L_Boundary (fwd): 5.565085
+2025-10-30 05:32:19,071 - nlmfsp.trainer - INFO -   L_Boundary (bwd): 31.275877
+2025-10-30 05:32:19,071 - nlmfsp.trainer - INFO -   Interaction learning: skipped
+2025-10-30 05:32:19,071 - nlmfsp.trainer - INFO -   Time: 107.61s
+2025-10-30 05:32:19,071 - nlmfsp.trainer - INFO - 
+2025-10-30 05:32:19,090 - nlmfsp.trainer - INFO - Checkpoint saved: outputs/experiments/analytical_gmm_navigation/exp_20251030_050837_lry1e-03_lrz5e-04_n200_ipf1_td1_fk1_b1_ema0.990/checkpoints/checkpoint_0013.pt
+2025-10-30 05:32:21,231 - nlmfsp.trainer - INFO - Iteration 14/100
+2025-10-30 05:34:08,879 - nlmfsp.trainer - INFO -   L_IPF (fwd): 1.187330
+2025-10-30 05:34:08,879 - nlmfsp.trainer - INFO -   L_IPF (bwd): 1.229934
+2025-10-30 05:34:08,879 - nlmfsp.trainer - INFO -   L_TD  (bwd): 202.642242
+2025-10-30 05:34:08,879 - nlmfsp.trainer - INFO -   L_TD  (fwd): 293.817200
+2025-10-30 05:34:08,879 - nlmfsp.trainer - INFO -   L_FK (fwd): 15.630253
+2025-10-30 05:34:08,879 - nlmfsp.trainer - INFO -   L_FK (bwd): 7.962414
+2025-10-30 05:34:08,879 - nlmfsp.trainer - INFO -   L_Boundary (fwd): 5.043541
+2025-10-30 05:34:08,879 - nlmfsp.trainer - INFO -   L_Boundary (bwd): 27.047501
+2025-10-30 05:34:08,879 - nlmfsp.trainer - INFO -   Interaction learning: skipped
+2025-10-30 05:34:08,879 - nlmfsp.trainer - INFO -   Time: 107.65s
+2025-10-30 05:34:08,879 - nlmfsp.trainer - INFO - 
+2025-10-30 05:34:08,898 - nlmfsp.trainer - INFO - Checkpoint saved: outputs/experiments/analytical_gmm_navigation/exp_20251030_050837_lry1e-03_lrz5e-04_n200_ipf1_td1_fk1_b1_ema0.990/checkpoints/checkpoint_0014.pt
+2025-10-30 05:34:10,836 - nlmfsp.trainer - INFO - Iteration 15/100
+2025-10-30 05:35:58,512 - nlmfsp.trainer - INFO -   L_IPF (fwd): 1.229100
+2025-10-30 05:35:58,512 - nlmfsp.trainer - INFO -   L_IPF (bwd): 1.247876
+2025-10-30 05:35:58,512 - nlmfsp.trainer - INFO -   L_TD  (bwd): 179.663177
+2025-10-30 05:35:58,512 - nlmfsp.trainer - INFO -   L_TD  (fwd): 252.993759
+2025-10-30 05:35:58,512 - nlmfsp.trainer - INFO -   L_FK (fwd): 14.425279
+2025-10-30 05:35:58,512 - nlmfsp.trainer - INFO -   L_FK (bwd): 7.719669
+2025-10-30 05:35:58,512 - nlmfsp.trainer - INFO -   L_Boundary (fwd): 4.444400
+2025-10-30 05:35:58,512 - nlmfsp.trainer - INFO -   L_Boundary (bwd): 20.531477
+2025-10-30 05:35:58,512 - nlmfsp.trainer - INFO -   Interaction learning: skipped
+2025-10-30 05:35:58,512 - nlmfsp.trainer - INFO -   Time: 107.68s
+2025-10-30 05:35:58,512 - nlmfsp.trainer - INFO - 
+2025-10-30 05:35:58,531 - nlmfsp.trainer - INFO - Checkpoint saved: outputs/experiments/analytical_gmm_navigation/exp_20251030_050837_lry1e-03_lrz5e-04_n200_ipf1_td1_fk1_b1_ema0.990/checkpoints/checkpoint_0015.pt
+2025-10-30 05:36:00,665 - nlmfsp.trainer - INFO - Iteration 16/100
+2025-10-30 05:37:48,378 - nlmfsp.trainer - INFO -   L_IPF (fwd): 1.263431
+2025-10-30 05:37:48,378 - nlmfsp.trainer - INFO -   L_IPF (bwd): 1.264769
+2025-10-30 05:37:48,378 - nlmfsp.trainer - INFO -   L_TD  (bwd): 156.534958
+2025-10-30 05:37:48,378 - nlmfsp.trainer - INFO -   L_TD  (fwd): 210.833282
+2025-10-30 05:37:48,378 - nlmfsp.trainer - INFO -   L_FK (fwd): 12.805241
+2025-10-30 05:37:48,378 - nlmfsp.trainer - INFO -   L_FK (bwd): 7.408046
+2025-10-30 05:37:48,378 - nlmfsp.trainer - INFO -   L_Boundary (fwd): 3.548800
+2025-10-30 05:37:48,378 - nlmfsp.trainer - INFO -   L_Boundary (bwd): 18.637678
+2025-10-30 05:37:48,378 - nlmfsp.trainer - INFO -   Interaction learning: skipped
+2025-10-30 05:37:48,378 - nlmfsp.trainer - INFO -   Time: 107.71s
+2025-10-30 05:37:48,378 - nlmfsp.trainer - INFO - 
+2025-10-30 05:37:48,396 - nlmfsp.trainer - INFO - Checkpoint saved: outputs/experiments/analytical_gmm_navigation/exp_20251030_050837_lry1e-03_lrz5e-04_n200_ipf1_td1_fk1_b1_ema0.990/checkpoints/checkpoint_0016.pt
+2025-10-30 05:37:50,549 - nlmfsp.trainer - INFO - Iteration 17/100
+2025-10-30 05:39:38,195 - nlmfsp.trainer - INFO -   L_IPF (fwd): 1.251384
+2025-10-30 05:39:38,195 - nlmfsp.trainer - INFO -   L_IPF (bwd): 1.267125
+2025-10-30 05:39:38,195 - nlmfsp.trainer - INFO -   L_TD  (bwd): 136.270447
+2025-10-30 05:39:38,195 - nlmfsp.trainer - INFO -   L_TD  (fwd): 170.825302
+2025-10-30 05:39:38,196 - nlmfsp.trainer - INFO -   L_FK (fwd): 11.014928
+2025-10-30 05:39:38,196 - nlmfsp.trainer - INFO -   L_FK (bwd): 7.142297
+2025-10-30 05:39:38,196 - nlmfsp.trainer - INFO -   L_Boundary (fwd): 2.869223
+2025-10-30 05:39:38,196 - nlmfsp.trainer - INFO -   L_Boundary (bwd): 17.010706
+2025-10-30 05:39:38,196 - nlmfsp.trainer - INFO -   Interaction learning: skipped
+2025-10-30 05:39:38,196 - nlmfsp.trainer - INFO -   Time: 107.65s
+2025-10-30 05:39:38,196 - nlmfsp.trainer - INFO - 
+2025-10-30 05:39:38,214 - nlmfsp.trainer - INFO - Checkpoint saved: outputs/experiments/analytical_gmm_navigation/exp_20251030_050837_lry1e-03_lrz5e-04_n200_ipf1_td1_fk1_b1_ema0.990/checkpoints/checkpoint_0017.pt
+2025-10-30 05:39:40,178 - nlmfsp.trainer - INFO - Iteration 18/100
+2025-10-30 05:41:27,850 - nlmfsp.trainer - INFO -   L_IPF (fwd): 1.272481
+2025-10-30 05:41:27,851 - nlmfsp.trainer - INFO -   L_IPF (bwd): 1.232838
+2025-10-30 05:41:27,851 - nlmfsp.trainer - INFO -   L_TD  (bwd): 122.868637
+2025-10-30 05:41:27,851 - nlmfsp.trainer - INFO -   L_TD  (fwd): 137.798691
+2025-10-30 05:41:27,851 - nlmfsp.trainer - INFO -   L_FK (fwd): 9.478934
+2025-10-30 05:41:27,851 - nlmfsp.trainer - INFO -   L_FK (bwd): 6.969549
+2025-10-30 05:41:27,851 - nlmfsp.trainer - INFO -   L_Boundary (fwd): 2.212279
+2025-10-30 05:41:27,851 - nlmfsp.trainer - INFO -   L_Boundary (bwd): 17.185623
+2025-10-30 05:41:27,851 - nlmfsp.trainer - INFO -   Interaction learning: skipped
+2025-10-30 05:41:27,851 - nlmfsp.trainer - INFO -   Time: 107.67s
+2025-10-30 05:41:27,851 - nlmfsp.trainer - INFO - 
+2025-10-30 05:41:27,870 - nlmfsp.trainer - INFO - Checkpoint saved: outputs/experiments/analytical_gmm_navigation/exp_20251030_050837_lry1e-03_lrz5e-04_n200_ipf1_td1_fk1_b1_ema0.990/checkpoints/checkpoint_0018.pt
+2025-10-30 05:41:30,011 - nlmfsp.trainer - INFO - Iteration 19/100
+2025-10-30 05:43:19,753 - nlmfsp.trainer - INFO -   L_IPF (fwd): 1.300248
+2025-10-30 05:43:19,753 - nlmfsp.trainer - INFO -   L_IPF (bwd): 1.223118
+2025-10-30 05:43:19,753 - nlmfsp.trainer - INFO -   L_TD  (bwd): 114.083664
+2025-10-30 05:43:19,753 - nlmfsp.trainer - INFO -   L_TD  (fwd): 116.110687
+2025-10-30 05:43:19,753 - nlmfsp.trainer - INFO -   L_FK (fwd): 8.537553
+2025-10-30 05:43:19,753 - nlmfsp.trainer - INFO -   L_FK (bwd): 6.651513
+2025-10-30 05:43:19,753 - nlmfsp.trainer - INFO -   L_Boundary (fwd): 1.560929
+2025-10-30 05:43:19,753 - nlmfsp.trainer - INFO -   L_Boundary (bwd): 14.297061
+2025-10-30 05:43:19,753 - nlmfsp.trainer - INFO -   Interaction learning: skipped
+2025-10-30 05:43:19,753 - nlmfsp.trainer - INFO -   Time: 109.74s
+2025-10-30 05:43:19,753 - nlmfsp.trainer - INFO - 
+2025-10-30 05:43:19,775 - nlmfsp.trainer - INFO - Checkpoint saved: outputs/experiments/analytical_gmm_navigation/exp_20251030_050837_lry1e-03_lrz5e-04_n200_ipf1_td1_fk1_b1_ema0.990/checkpoints/checkpoint_0019.pt
+2025-10-30 05:43:22,047 - nlmfsp.trainer - INFO - Iteration 20/100
+2025-10-30 05:45:15,518 - nlmfsp.trainer - INFO -   L_IPF (fwd): 1.269690
+2025-10-30 05:45:15,519 - nlmfsp.trainer - INFO -   L_IPF (bwd): 1.182545
+2025-10-30 05:45:15,519 - nlmfsp.trainer - INFO -   L_TD  (bwd): 106.479172
+2025-10-30 05:45:15,519 - nlmfsp.trainer - INFO -   L_TD  (fwd): 105.394882
+2025-10-30 05:45:15,519 - nlmfsp.trainer - INFO -   L_FK (fwd): 8.025625
+2025-10-30 05:45:15,519 - nlmfsp.trainer - INFO -   L_FK (bwd): 6.388828
+2025-10-30 05:45:15,519 - nlmfsp.trainer - INFO -   L_Boundary (fwd): 1.684152
+2025-10-30 05:45:15,519 - nlmfsp.trainer - INFO -   L_Boundary (bwd): 11.211754
+2025-10-30 05:45:15,519 - nlmfsp.trainer - INFO -   Interaction learning: skipped
+2025-10-30 05:45:15,519 - nlmfsp.trainer - INFO -   Time: 113.47s
+2025-10-30 05:45:15,519 - nlmfsp.trainer - INFO - 
+2025-10-30 05:45:15,540 - nlmfsp.trainer - INFO - Checkpoint saved: outputs/experiments/analytical_gmm_navigation/exp_20251030_050837_lry1e-03_lrz5e-04_n200_ipf1_td1_fk1_b1_ema0.990/checkpoints/checkpoint_0020.pt
+2025-10-30 05:45:17,649 - nlmfsp.trainer - INFO - Iteration 21/100
+2025-10-30 05:47:11,098 - nlmfsp.trainer - INFO -   L_IPF (fwd): 1.247895
+2025-10-30 05:47:11,099 - nlmfsp.trainer - INFO -   L_IPF (bwd): 1.157891
+2025-10-30 05:47:11,099 - nlmfsp.trainer - INFO -   L_TD  (bwd): 96.424072
+2025-10-30 05:47:11,099 - nlmfsp.trainer - INFO -   L_TD  (fwd): 99.098427
+2025-10-30 05:47:11,099 - nlmfsp.trainer - INFO -   L_FK (fwd): 7.636542
+2025-10-30 05:47:11,099 - nlmfsp.trainer - INFO -   L_FK (bwd): 6.065989
+2025-10-30 05:47:11,099 - nlmfsp.trainer - INFO -   L_Boundary (fwd): 1.491774
+2025-10-30 05:47:11,099 - nlmfsp.trainer - INFO -   L_Boundary (bwd): 8.837210
+2025-10-30 05:47:11,099 - nlmfsp.trainer - INFO -   Interaction learning: skipped
+2025-10-30 05:47:11,099 - nlmfsp.trainer - INFO -   Time: 113.45s
+2025-10-30 05:47:11,099 - nlmfsp.trainer - INFO - 
+2025-10-30 05:47:11,121 - nlmfsp.trainer - INFO - Checkpoint saved: outputs/experiments/analytical_gmm_navigation/exp_20251030_050837_lry1e-03_lrz5e-04_n200_ipf1_td1_fk1_b1_ema0.990/checkpoints/checkpoint_0021.pt
+2025-10-30 05:47:13,451 - nlmfsp.trainer - INFO - Iteration 22/100
+2025-10-30 05:49:06,890 - nlmfsp.trainer - INFO -   L_IPF (fwd): 1.196680
+2025-10-30 05:49:06,890 - nlmfsp.trainer - INFO -   L_IPF (bwd): 1.102855
+2025-10-30 05:49:06,890 - nlmfsp.trainer - INFO -   L_TD  (bwd): 87.212814
+2025-10-30 05:49:06,890 - nlmfsp.trainer - INFO -   L_TD  (fwd): 97.415596
+2025-10-30 05:49:06,890 - nlmfsp.trainer - INFO -   L_FK (fwd): 7.406915
+2025-10-30 05:49:06,890 - nlmfsp.trainer - INFO -   L_FK (bwd): 5.762316
+2025-10-30 05:49:06,890 - nlmfsp.trainer - INFO -   L_Boundary (fwd): 1.143463
+2025-10-30 05:49:06,890 - nlmfsp.trainer - INFO -   L_Boundary (bwd): 9.784392
+2025-10-30 05:49:06,891 - nlmfsp.trainer - INFO -   Interaction learning: skipped
+2025-10-30 05:49:06,891 - nlmfsp.trainer - INFO -   Time: 113.44s
+2025-10-30 05:49:06,891 - nlmfsp.trainer - INFO - 
+2025-10-30 05:49:06,912 - nlmfsp.trainer - INFO - Checkpoint saved: outputs/experiments/analytical_gmm_navigation/exp_20251030_050837_lry1e-03_lrz5e-04_n200_ipf1_td1_fk1_b1_ema0.990/checkpoints/checkpoint_0022.pt
+2025-10-30 05:49:09,135 - nlmfsp.trainer - INFO - Iteration 23/100
+2025-10-30 05:51:02,639 - nlmfsp.trainer - INFO -   L_IPF (fwd): 1.181114
+2025-10-30 05:51:02,640 - nlmfsp.trainer - INFO -   L_IPF (bwd): 1.045118
+2025-10-30 05:51:02,640 - nlmfsp.trainer - INFO -   L_TD  (bwd): 78.924904
+2025-10-30 05:51:02,640 - nlmfsp.trainer - INFO -   L_TD  (fwd): 97.583725
+2025-10-30 05:51:02,640 - nlmfsp.trainer - INFO -   L_FK (fwd): 7.286819
+2025-10-30 05:51:02,640 - nlmfsp.trainer - INFO -   L_FK (bwd): 5.517002
+2025-10-30 05:51:02,640 - nlmfsp.trainer - INFO -   L_Boundary (fwd): 1.044830
+2025-10-30 05:51:02,640 - nlmfsp.trainer - INFO -   L_Boundary (bwd): 9.945794
+2025-10-30 05:51:02,640 - nlmfsp.trainer - INFO -   Interaction learning: skipped
+2025-10-30 05:51:02,640 - nlmfsp.trainer - INFO -   Time: 113.50s
+2025-10-30 05:51:02,640 - nlmfsp.trainer - INFO - 
+2025-10-30 05:51:02,661 - nlmfsp.trainer - INFO - Checkpoint saved: outputs/experiments/analytical_gmm_navigation/exp_20251030_050837_lry1e-03_lrz5e-04_n200_ipf1_td1_fk1_b1_ema0.990/checkpoints/checkpoint_0023.pt
+2025-10-30 05:51:04,688 - nlmfsp.trainer - INFO - Iteration 24/100
+2025-10-30 05:52:57,175 - nlmfsp.trainer - INFO -   L_IPF (fwd): 1.162075
+2025-10-30 05:52:57,175 - nlmfsp.trainer - INFO -   L_IPF (bwd): 1.025914
+2025-10-30 05:52:57,175 - nlmfsp.trainer - INFO -   L_TD  (bwd): 67.636780
+2025-10-30 05:52:57,175 - nlmfsp.trainer - INFO -   L_TD  (fwd): 95.053146
+2025-10-30 05:52:57,175 - nlmfsp.trainer - INFO -   L_FK (fwd): 7.065528
+2025-10-30 05:52:57,176 - nlmfsp.trainer - INFO -   L_FK (bwd): 5.258425
+2025-10-30 05:52:57,176 - nlmfsp.trainer - INFO -   L_Boundary (fwd): 0.945728
+2025-10-30 05:52:57,176 - nlmfsp.trainer - INFO -   L_Boundary (bwd): 9.203123
+2025-10-30 05:52:57,176 - nlmfsp.trainer - INFO -   Interaction learning: skipped
+2025-10-30 05:52:57,176 - nlmfsp.trainer - INFO -   Time: 112.49s
+2025-10-30 05:52:57,176 - nlmfsp.trainer - INFO - 
+2025-10-30 05:52:57,195 - nlmfsp.trainer - INFO - Checkpoint saved: outputs/experiments/analytical_gmm_navigation/exp_20251030_050837_lry1e-03_lrz5e-04_n200_ipf1_td1_fk1_b1_ema0.990/checkpoints/checkpoint_0024.pt
+2025-10-30 05:52:59,355 - nlmfsp.trainer - INFO - Iteration 25/100
+2025-10-30 05:54:47,078 - nlmfsp.trainer - INFO -   L_IPF (fwd): 1.161890
+2025-10-30 05:54:47,078 - nlmfsp.trainer - INFO -   L_IPF (bwd): 1.009785
+2025-10-30 05:54:47,078 - nlmfsp.trainer - INFO -   L_TD  (bwd): 62.251610
+2025-10-30 05:54:47,078 - nlmfsp.trainer - INFO -   L_TD  (fwd): 93.116013
+2025-10-30 05:54:47,078 - nlmfsp.trainer - INFO -   L_FK (fwd): 6.776188
+2025-10-30 05:54:47,078 - nlmfsp.trainer - INFO -   L_FK (bwd): 5.128785
+2025-10-30 05:54:47,078 - nlmfsp.trainer - INFO -   L_Boundary (fwd): 0.852225
+2025-10-30 05:54:47,078 - nlmfsp.trainer - INFO -   L_Boundary (bwd): 7.353093
+2025-10-30 05:54:47,078 - nlmfsp.trainer - INFO -   Interaction learning: skipped
+2025-10-30 05:54:47,078 - nlmfsp.trainer - INFO -   Time: 107.72s
+2025-10-30 05:54:47,078 - nlmfsp.trainer - INFO - 
+2025-10-30 05:54:47,097 - nlmfsp.trainer - INFO - Checkpoint saved: outputs/experiments/analytical_gmm_navigation/exp_20251030_050837_lry1e-03_lrz5e-04_n200_ipf1_td1_fk1_b1_ema0.990/checkpoints/checkpoint_0025.pt
+2025-10-30 05:54:49,012 - nlmfsp.trainer - INFO - Iteration 26/100
+2025-10-30 05:56:36,754 - nlmfsp.trainer - INFO -   L_IPF (fwd): 1.153796
+2025-10-30 05:56:36,754 - nlmfsp.trainer - INFO -   L_IPF (bwd): 0.988480
+2025-10-30 05:56:36,754 - nlmfsp.trainer - INFO -   L_TD  (bwd): 61.164978
+2025-10-30 05:56:36,754 - nlmfsp.trainer - INFO -   L_TD  (fwd): 96.211189
+2025-10-30 05:56:36,754 - nlmfsp.trainer - INFO -   L_FK (fwd): 6.596376
+2025-10-30 05:56:36,754 - nlmfsp.trainer - INFO -   L_FK (bwd): 5.106896
+2025-10-30 05:56:36,754 - nlmfsp.trainer - INFO -   L_Boundary (fwd): 0.780455
+2025-10-30 05:56:36,754 - nlmfsp.trainer - INFO -   L_Boundary (bwd): 7.393574
+2025-10-30 05:56:36,754 - nlmfsp.trainer - INFO -   Interaction learning: skipped
+2025-10-30 05:56:36,754 - nlmfsp.trainer - INFO -   Time: 107.74s
+2025-10-30 05:56:36,754 - nlmfsp.trainer - INFO - 
+2025-10-30 05:56:36,773 - nlmfsp.trainer - INFO - Checkpoint saved: outputs/experiments/analytical_gmm_navigation/exp_20251030_050837_lry1e-03_lrz5e-04_n200_ipf1_td1_fk1_b1_ema0.990/checkpoints/checkpoint_0026.pt
+2025-10-30 05:56:38,893 - nlmfsp.trainer - INFO - Iteration 27/100
+2025-10-30 05:58:26,630 - nlmfsp.trainer - INFO -   L_IPF (fwd): 1.167575
+2025-10-30 05:58:26,631 - nlmfsp.trainer - INFO -   L_IPF (bwd): 0.984804
+2025-10-30 05:58:26,631 - nlmfsp.trainer - INFO -   L_TD  (bwd): 57.800125
+2025-10-30 05:58:26,631 - nlmfsp.trainer - INFO -   L_TD  (fwd): 101.680969
+2025-10-30 05:58:26,631 - nlmfsp.trainer - INFO -   L_FK (fwd): 6.528581
+2025-10-30 05:58:26,631 - nlmfsp.trainer - INFO -   L_FK (bwd): 5.072115
+2025-10-30 05:58:26,631 - nlmfsp.trainer - INFO -   L_Boundary (fwd): 0.653988
+2025-10-30 05:58:26,631 - nlmfsp.trainer - INFO -   L_Boundary (bwd): 7.647738
+2025-10-30 05:58:26,631 - nlmfsp.trainer - INFO -   Interaction learning: skipped
+2025-10-30 05:58:26,631 - nlmfsp.trainer - INFO -   Time: 107.74s
+2025-10-30 05:58:26,631 - nlmfsp.trainer - INFO - 
+2025-10-30 05:58:26,652 - nlmfsp.trainer - INFO - Checkpoint saved: outputs/experiments/analytical_gmm_navigation/exp_20251030_050837_lry1e-03_lrz5e-04_n200_ipf1_td1_fk1_b1_ema0.990/checkpoints/checkpoint_0027.pt
+2025-10-30 05:58:28,771 - nlmfsp.trainer - INFO - Iteration 28/100
+2025-10-30 06:00:16,511 - nlmfsp.trainer - INFO -   L_IPF (fwd): 1.137854
+2025-10-30 06:00:16,512 - nlmfsp.trainer - INFO -   L_IPF (bwd): 0.998717
+2025-10-30 06:00:16,512 - nlmfsp.trainer - INFO -   L_TD  (bwd): 56.415749
+2025-10-30 06:00:16,512 - nlmfsp.trainer - INFO -   L_TD  (fwd): 103.898026
+2025-10-30 06:00:16,512 - nlmfsp.trainer - INFO -   L_FK (fwd): 6.580692
+2025-10-30 06:00:16,512 - nlmfsp.trainer - INFO -   L_FK (bwd): 5.042628
+2025-10-30 06:00:16,512 - nlmfsp.trainer - INFO -   L_Boundary (fwd): 0.868585
+2025-10-30 06:00:16,512 - nlmfsp.trainer - INFO -   L_Boundary (bwd): 7.284339
+2025-10-30 06:00:16,512 - nlmfsp.trainer - INFO -   Interaction learning: skipped
+2025-10-30 06:00:16,512 - nlmfsp.trainer - INFO -   Time: 107.74s
+2025-10-30 06:00:16,512 - nlmfsp.trainer - INFO - 
+2025-10-30 06:00:16,531 - nlmfsp.trainer - INFO - Checkpoint saved: outputs/experiments/analytical_gmm_navigation/exp_20251030_050837_lry1e-03_lrz5e-04_n200_ipf1_td1_fk1_b1_ema0.990/checkpoints/checkpoint_0028.pt
+2025-10-30 06:00:18,437 - nlmfsp.trainer - INFO - Iteration 29/100
+2025-10-30 06:02:06,233 - nlmfsp.trainer - INFO -   L_IPF (fwd): 1.176971
+2025-10-30 06:02:06,233 - nlmfsp.trainer - INFO -   L_IPF (bwd): 0.990240
+2025-10-30 06:02:06,233 - nlmfsp.trainer - INFO -   L_TD  (bwd): 49.563206
+2025-10-30 06:02:06,233 - nlmfsp.trainer - INFO -   L_TD  (fwd): 99.436935
+2025-10-30 06:02:06,233 - nlmfsp.trainer - INFO -   L_FK (fwd): 6.399729
+2025-10-30 06:02:06,233 - nlmfsp.trainer - INFO -   L_FK (bwd): 4.873671
+2025-10-30 06:02:06,233 - nlmfsp.trainer - INFO -   L_Boundary (fwd): 0.793760
+2025-10-30 06:02:06,233 - nlmfsp.trainer - INFO -   L_Boundary (bwd): 7.322808
+2025-10-30 06:02:06,233 - nlmfsp.trainer - INFO -   Interaction learning: skipped
+2025-10-30 06:02:06,233 - nlmfsp.trainer - INFO -   Time: 107.80s
+2025-10-30 06:02:06,233 - nlmfsp.trainer - INFO - 
+2025-10-30 06:02:06,252 - nlmfsp.trainer - INFO - Checkpoint saved: outputs/experiments/analytical_gmm_navigation/exp_20251030_050837_lry1e-03_lrz5e-04_n200_ipf1_td1_fk1_b1_ema0.990/checkpoints/checkpoint_0029.pt
+2025-10-30 06:02:08,403 - nlmfsp.trainer - INFO - Iteration 30/100
+2025-10-30 06:03:56,467 - nlmfsp.trainer - INFO -   L_IPF (fwd): 1.183402
+2025-10-30 06:03:56,467 - nlmfsp.trainer - INFO -   L_IPF (bwd): 0.956510
+2025-10-30 06:03:56,467 - nlmfsp.trainer - INFO -   L_TD  (bwd): 43.633846
+2025-10-30 06:03:56,468 - nlmfsp.trainer - INFO -   L_TD  (fwd): 91.439026
+2025-10-30 06:03:56,468 - nlmfsp.trainer - INFO -   L_FK (fwd): 6.348412
+2025-10-30 06:03:56,468 - nlmfsp.trainer - INFO -   L_FK (bwd): 4.704616
+2025-10-30 06:03:56,468 - nlmfsp.trainer - INFO -   L_Boundary (fwd): 0.839739
+2025-10-30 06:03:56,468 - nlmfsp.trainer - INFO -   L_Boundary (bwd): 7.521163
+2025-10-30 06:03:56,468 - nlmfsp.trainer - INFO -   Interaction learning: skipped
+2025-10-30 06:03:56,468 - nlmfsp.trainer - INFO -   Time: 108.06s
+2025-10-30 06:03:56,468 - nlmfsp.trainer - INFO - 
+2025-10-30 06:03:56,487 - nlmfsp.trainer - INFO - Checkpoint saved: outputs/experiments/analytical_gmm_navigation/exp_20251030_050837_lry1e-03_lrz5e-04_n200_ipf1_td1_fk1_b1_ema0.990/checkpoints/checkpoint_0030.pt
+2025-10-30 06:03:58,423 - nlmfsp.trainer - INFO - Iteration 31/100
+2025-10-30 06:05:46,162 - nlmfsp.trainer - INFO -   L_IPF (fwd): 1.206178
+2025-10-30 06:05:46,162 - nlmfsp.trainer - INFO -   L_IPF (bwd): 0.954056
+2025-10-30 06:05:46,162 - nlmfsp.trainer - INFO -   L_TD  (bwd): 38.678234
+2025-10-30 06:05:46,162 - nlmfsp.trainer - INFO -   L_TD  (fwd): 80.430923
+2025-10-30 06:05:46,162 - nlmfsp.trainer - INFO -   L_FK (fwd): 6.266570
+2025-10-30 06:05:46,162 - nlmfsp.trainer - INFO -   L_FK (bwd): 4.605376
+2025-10-30 06:05:46,162 - nlmfsp.trainer - INFO -   L_Boundary (fwd): 0.704061
+2025-10-30 06:05:46,162 - nlmfsp.trainer - INFO -   L_Boundary (bwd): 5.429638
+2025-10-30 06:05:46,162 - nlmfsp.trainer - INFO -   Interaction learning: skipped
+2025-10-30 06:05:46,162 - nlmfsp.trainer - INFO -   Time: 107.74s
+2025-10-30 06:05:46,162 - nlmfsp.trainer - INFO - 
+2025-10-30 06:05:46,182 - nlmfsp.trainer - INFO - Checkpoint saved: outputs/experiments/analytical_gmm_navigation/exp_20251030_050837_lry1e-03_lrz5e-04_n200_ipf1_td1_fk1_b1_ema0.990/checkpoints/checkpoint_0031.pt
+2025-10-30 06:05:48,336 - nlmfsp.trainer - INFO - Iteration 32/100
+2025-10-30 06:07:36,008 - nlmfsp.trainer - INFO -   L_IPF (fwd): 1.209136
+2025-10-30 06:07:36,008 - nlmfsp.trainer - INFO -   L_IPF (bwd): 0.993617
+2025-10-30 06:07:36,008 - nlmfsp.trainer - INFO -   L_TD  (bwd): 36.917145
+2025-10-30 06:07:36,008 - nlmfsp.trainer - INFO -   L_TD  (fwd): 66.945526
+2025-10-30 06:07:36,008 - nlmfsp.trainer - INFO -   L_FK (fwd): 5.896101
+2025-10-30 06:07:36,008 - nlmfsp.trainer - INFO -   L_FK (bwd): 4.408369
+2025-10-30 06:07:36,008 - nlmfsp.trainer - INFO -   L_Boundary (fwd): 0.512721
+2025-10-30 06:07:36,008 - nlmfsp.trainer - INFO -   L_Boundary (bwd): 4.975002
+2025-10-30 06:07:36,008 - nlmfsp.trainer - INFO -   Interaction learning: skipped
+2025-10-30 06:07:36,008 - nlmfsp.trainer - INFO -   Time: 107.67s
+2025-10-30 06:07:36,008 - nlmfsp.trainer - INFO - 
+2025-10-30 06:07:36,028 - nlmfsp.trainer - INFO - Checkpoint saved: outputs/experiments/analytical_gmm_navigation/exp_20251030_050837_lry1e-03_lrz5e-04_n200_ipf1_td1_fk1_b1_ema0.990/checkpoints/checkpoint_0032.pt
+2025-10-30 06:07:37,950 - nlmfsp.trainer - INFO - Iteration 33/100
+2025-10-30 06:09:25,583 - nlmfsp.trainer - INFO -   L_IPF (fwd): 1.161976
+2025-10-30 06:09:25,583 - nlmfsp.trainer - INFO -   L_IPF (bwd): 0.967900
+2025-10-30 06:09:25,583 - nlmfsp.trainer - INFO -   L_TD  (bwd): 36.852154
+2025-10-30 06:09:25,583 - nlmfsp.trainer - INFO -   L_TD  (fwd): 56.700775
+2025-10-30 06:09:25,583 - nlmfsp.trainer - INFO -   L_FK (fwd): 5.413249
+2025-10-30 06:09:25,583 - nlmfsp.trainer - INFO -   L_FK (bwd): 4.328138
+2025-10-30 06:09:25,583 - nlmfsp.trainer - INFO -   L_Boundary (fwd): 0.439727
+2025-10-30 06:09:25,583 - nlmfsp.trainer - INFO -   L_Boundary (bwd): 5.277481
+2025-10-30 06:09:25,583 - nlmfsp.trainer - INFO -   Interaction learning: skipped
+2025-10-30 06:09:25,583 - nlmfsp.trainer - INFO -   Time: 107.63s
+2025-10-30 06:09:25,583 - nlmfsp.trainer - INFO - 
+2025-10-30 06:09:25,602 - nlmfsp.trainer - INFO - Checkpoint saved: outputs/experiments/analytical_gmm_navigation/exp_20251030_050837_lry1e-03_lrz5e-04_n200_ipf1_td1_fk1_b1_ema0.990/checkpoints/checkpoint_0033.pt
+2025-10-30 06:09:27,750 - nlmfsp.trainer - INFO - Iteration 34/100
+2025-10-30 06:11:15,270 - nlmfsp.trainer - INFO -   L_IPF (fwd): 1.133146
+2025-10-30 06:11:15,270 - nlmfsp.trainer - INFO -   L_IPF (bwd): 0.899662
+2025-10-30 06:11:15,270 - nlmfsp.trainer - INFO -   L_TD  (bwd): 32.724369
+2025-10-30 06:11:15,271 - nlmfsp.trainer - INFO -   L_TD  (fwd): 50.767254
+2025-10-30 06:11:15,271 - nlmfsp.trainer - INFO -   L_FK (fwd): 4.979223
+2025-10-30 06:11:15,271 - nlmfsp.trainer - INFO -   L_FK (bwd): 4.175603
+2025-10-30 06:11:15,271 - nlmfsp.trainer - INFO -   L_Boundary (fwd): 0.607684
+2025-10-30 06:11:15,271 - nlmfsp.trainer - INFO -   L_Boundary (bwd): 5.222035
+2025-10-30 06:11:15,271 - nlmfsp.trainer - INFO -   Interaction learning: skipped
+2025-10-30 06:11:15,271 - nlmfsp.trainer - INFO -   Time: 107.52s
+2025-10-30 06:11:15,271 - nlmfsp.trainer - INFO - 
+2025-10-30 06:11:15,290 - nlmfsp.trainer - INFO - Checkpoint saved: outputs/experiments/analytical_gmm_navigation/exp_20251030_050837_lry1e-03_lrz5e-04_n200_ipf1_td1_fk1_b1_ema0.990/checkpoints/checkpoint_0034.pt
+2025-10-30 06:11:17,434 - nlmfsp.trainer - INFO - Iteration 35/100
+2025-10-30 06:13:04,933 - nlmfsp.trainer - INFO -   L_IPF (fwd): 1.107991
+2025-10-30 06:13:04,934 - nlmfsp.trainer - INFO -   L_IPF (bwd): 0.855100
+2025-10-30 06:13:04,934 - nlmfsp.trainer - INFO -   L_TD  (bwd): 34.410835
+2025-10-30 06:13:04,934 - nlmfsp.trainer - INFO -   L_TD  (fwd): 47.511009
+2025-10-30 06:13:04,934 - nlmfsp.trainer - INFO -   L_FK (fwd): 4.684749
+2025-10-30 06:13:04,934 - nlmfsp.trainer - INFO -   L_FK (bwd): 4.116046
+2025-10-30 06:13:04,934 - nlmfsp.trainer - INFO -   L_Boundary (fwd): 0.446279
+2025-10-30 06:13:04,934 - nlmfsp.trainer - INFO -   L_Boundary (bwd): 6.034659
+2025-10-30 06:13:04,934 - nlmfsp.trainer - INFO -   Interaction learning: skipped
+2025-10-30 06:13:04,934 - nlmfsp.trainer - INFO -   Time: 107.50s
+2025-10-30 06:13:04,934 - nlmfsp.trainer - INFO - 
+2025-10-30 06:13:04,953 - nlmfsp.trainer - INFO - Checkpoint saved: outputs/experiments/analytical_gmm_navigation/exp_20251030_050837_lry1e-03_lrz5e-04_n200_ipf1_td1_fk1_b1_ema0.990/checkpoints/checkpoint_0035.pt
+2025-10-30 06:13:06,897 - nlmfsp.trainer - INFO - Iteration 36/100
+2025-10-30 06:14:54,396 - nlmfsp.trainer - INFO -   L_IPF (fwd): 1.108089
+2025-10-30 06:14:54,397 - nlmfsp.trainer - INFO -   L_IPF (bwd): 0.820897
+2025-10-30 06:14:54,397 - nlmfsp.trainer - INFO -   L_TD  (bwd): 32.186798
+2025-10-30 06:14:54,397 - nlmfsp.trainer - INFO -   L_TD  (fwd): 48.100777
+2025-10-30 06:14:54,397 - nlmfsp.trainer - INFO -   L_FK (fwd): 4.562091
+2025-10-30 06:14:54,397 - nlmfsp.trainer - INFO -   L_FK (bwd): 4.090409
+2025-10-30 06:14:54,397 - nlmfsp.trainer - INFO -   L_Boundary (fwd): 0.403730
+2025-10-30 06:14:54,397 - nlmfsp.trainer - INFO -   L_Boundary (bwd): 4.753960
+2025-10-30 06:14:54,397 - nlmfsp.trainer - INFO -   Interaction learning: skipped
+2025-10-30 06:14:54,397 - nlmfsp.trainer - INFO -   Time: 107.50s
+2025-10-30 06:14:54,397 - nlmfsp.trainer - INFO - 
+2025-10-30 06:14:54,416 - nlmfsp.trainer - INFO - Checkpoint saved: outputs/experiments/analytical_gmm_navigation/exp_20251030_050837_lry1e-03_lrz5e-04_n200_ipf1_td1_fk1_b1_ema0.990/checkpoints/checkpoint_0036.pt
+2025-10-30 06:14:56,599 - nlmfsp.trainer - INFO - Iteration 37/100
+2025-10-30 06:16:44,097 - nlmfsp.trainer - INFO -   L_IPF (fwd): 1.140604
+2025-10-30 06:16:44,098 - nlmfsp.trainer - INFO -   L_IPF (bwd): 0.768345
+2025-10-30 06:16:44,098 - nlmfsp.trainer - INFO -   L_TD  (bwd): 32.122082
+2025-10-30 06:16:44,098 - nlmfsp.trainer - INFO -   L_TD  (fwd): 46.546890
+2025-10-30 06:16:44,098 - nlmfsp.trainer - INFO -   L_FK (fwd): 4.405964
+2025-10-30 06:16:44,098 - nlmfsp.trainer - INFO -   L_FK (bwd): 4.096190
+2025-10-30 06:16:44,098 - nlmfsp.trainer - INFO -   L_Boundary (fwd): 0.438113
+2025-10-30 06:16:44,098 - nlmfsp.trainer - INFO -   L_Boundary (bwd): 5.787629
+2025-10-30 06:16:44,098 - nlmfsp.trainer - INFO -   Interaction learning: skipped
+2025-10-30 06:16:44,098 - nlmfsp.trainer - INFO -   Time: 107.50s
+2025-10-30 06:16:44,098 - nlmfsp.trainer - INFO - 
+2025-10-30 06:16:44,117 - nlmfsp.trainer - INFO - Checkpoint saved: outputs/experiments/analytical_gmm_navigation/exp_20251030_050837_lry1e-03_lrz5e-04_n200_ipf1_td1_fk1_b1_ema0.990/checkpoints/checkpoint_0037.pt
+2025-10-30 06:16:46,066 - nlmfsp.trainer - INFO - Iteration 38/100
+2025-10-30 06:18:33,684 - nlmfsp.trainer - INFO -   L_IPF (fwd): 1.125648
+2025-10-30 06:18:33,685 - nlmfsp.trainer - INFO -   L_IPF (bwd): 0.757389
+2025-10-30 06:18:33,685 - nlmfsp.trainer - INFO -   L_TD  (bwd): 31.787451
+2025-10-30 06:18:33,685 - nlmfsp.trainer - INFO -   L_TD  (fwd): 43.161228
+2025-10-30 06:18:33,685 - nlmfsp.trainer - INFO -   L_FK (fwd): 4.196554
+2025-10-30 06:18:33,685 - nlmfsp.trainer - INFO -   L_FK (bwd): 4.091020
+2025-10-30 06:18:33,685 - nlmfsp.trainer - INFO -   L_Boundary (fwd): 0.376043
+2025-10-30 06:18:33,685 - nlmfsp.trainer - INFO -   L_Boundary (bwd): 4.855960
+2025-10-30 06:18:33,685 - nlmfsp.trainer - INFO -   Interaction learning: skipped
+2025-10-30 06:18:33,685 - nlmfsp.trainer - INFO -   Time: 107.62s
+2025-10-30 06:18:33,685 - nlmfsp.trainer - INFO - 
+2025-10-30 06:18:33,703 - nlmfsp.trainer - INFO - Checkpoint saved: outputs/experiments/analytical_gmm_navigation/exp_20251030_050837_lry1e-03_lrz5e-04_n200_ipf1_td1_fk1_b1_ema0.990/checkpoints/checkpoint_0038.pt
+2025-10-30 06:18:35,882 - nlmfsp.trainer - INFO - Iteration 39/100
+2025-10-30 06:20:23,574 - nlmfsp.trainer - INFO -   L_IPF (fwd): 1.195084
+2025-10-30 06:20:23,574 - nlmfsp.trainer - INFO -   L_IPF (bwd): 0.769654
+2025-10-30 06:20:23,575 - nlmfsp.trainer - INFO -   L_TD  (bwd): 31.528982
+2025-10-30 06:20:23,575 - nlmfsp.trainer - INFO -   L_TD  (fwd): 40.294750
+2025-10-30 06:20:23,575 - nlmfsp.trainer - INFO -   L_FK (fwd): 3.957705
+2025-10-30 06:20:23,575 - nlmfsp.trainer - INFO -   L_FK (bwd): 4.106153
+2025-10-30 06:20:23,575 - nlmfsp.trainer - INFO -   L_Boundary (fwd): 0.366577
+2025-10-30 06:20:23,575 - nlmfsp.trainer - INFO -   L_Boundary (bwd): 3.836103
+2025-10-30 06:20:23,575 - nlmfsp.trainer - INFO -   Interaction learning: skipped
+2025-10-30 06:20:23,575 - nlmfsp.trainer - INFO -   Time: 107.69s
+2025-10-30 06:20:23,575 - nlmfsp.trainer - INFO - 
+2025-10-30 06:20:23,594 - nlmfsp.trainer - INFO - Checkpoint saved: outputs/experiments/analytical_gmm_navigation/exp_20251030_050837_lry1e-03_lrz5e-04_n200_ipf1_td1_fk1_b1_ema0.990/checkpoints/checkpoint_0039.pt
+2025-10-30 06:20:25,589 - nlmfsp.trainer - INFO - Iteration 40/100
+2025-10-30 06:22:13,332 - nlmfsp.trainer - INFO -   L_IPF (fwd): 1.250800
+2025-10-30 06:22:13,332 - nlmfsp.trainer - INFO -   L_IPF (bwd): 0.799163
+2025-10-30 06:22:13,332 - nlmfsp.trainer - INFO -   L_TD  (bwd): 28.966368
+2025-10-30 06:22:13,332 - nlmfsp.trainer - INFO -   L_TD  (fwd): 39.917976
+2025-10-30 06:22:13,332 - nlmfsp.trainer - INFO -   L_FK (fwd): 3.918103
+2025-10-30 06:22:13,332 - nlmfsp.trainer - INFO -   L_FK (bwd): 4.062690
+2025-10-30 06:22:13,332 - nlmfsp.trainer - INFO -   L_Boundary (fwd): 0.531968
+2025-10-30 06:22:13,332 - nlmfsp.trainer - INFO -   L_Boundary (bwd): 3.798954
+2025-10-30 06:22:13,332 - nlmfsp.trainer - INFO -   Interaction learning: skipped
+2025-10-30 06:22:13,332 - nlmfsp.trainer - INFO -   Time: 107.74s
+2025-10-30 06:22:13,332 - nlmfsp.trainer - INFO - 
+2025-10-30 06:22:13,352 - nlmfsp.trainer - INFO - Checkpoint saved: outputs/experiments/analytical_gmm_navigation/exp_20251030_050837_lry1e-03_lrz5e-04_n200_ipf1_td1_fk1_b1_ema0.990/checkpoints/checkpoint_0040.pt
+2025-10-30 06:22:15,564 - nlmfsp.trainer - INFO - Iteration 41/100
+2025-10-30 06:24:03,259 - nlmfsp.trainer - INFO -   L_IPF (fwd): 1.258869
+2025-10-30 06:24:03,259 - nlmfsp.trainer - INFO -   L_IPF (bwd): 0.814498
+2025-10-30 06:24:03,259 - nlmfsp.trainer - INFO -   L_TD  (bwd): 30.632414
+2025-10-30 06:24:03,259 - nlmfsp.trainer - INFO -   L_TD  (fwd): 38.572830
+2025-10-30 06:24:03,259 - nlmfsp.trainer - INFO -   L_FK (fwd): 3.912196
+2025-10-30 06:24:03,259 - nlmfsp.trainer - INFO -   L_FK (bwd): 4.050139
+2025-10-30 06:24:03,259 - nlmfsp.trainer - INFO -   L_Boundary (fwd): 0.407542
+2025-10-30 06:24:03,259 - nlmfsp.trainer - INFO -   L_Boundary (bwd): 3.753393
+2025-10-30 06:24:03,259 - nlmfsp.trainer - INFO -   Interaction learning: skipped
+2025-10-30 06:24:03,259 - nlmfsp.trainer - INFO -   Time: 107.69s
+2025-10-30 06:24:03,259 - nlmfsp.trainer - INFO - 
+2025-10-30 06:24:03,278 - nlmfsp.trainer - INFO - Checkpoint saved: outputs/experiments/analytical_gmm_navigation/exp_20251030_050837_lry1e-03_lrz5e-04_n200_ipf1_td1_fk1_b1_ema0.990/checkpoints/checkpoint_0041.pt
+2025-10-30 06:24:05,482 - nlmfsp.trainer - INFO - Iteration 42/100
+2025-10-30 06:25:53,186 - nlmfsp.trainer - INFO -   L_IPF (fwd): 1.283888
+2025-10-30 06:25:53,186 - nlmfsp.trainer - INFO -   L_IPF (bwd): 0.803027
+2025-10-30 06:25:53,187 - nlmfsp.trainer - INFO -   L_TD  (bwd): 28.985819
+2025-10-30 06:25:53,187 - nlmfsp.trainer - INFO -   L_TD  (fwd): 37.674194
+2025-10-30 06:25:53,187 - nlmfsp.trainer - INFO -   L_FK (fwd): 3.815349
+2025-10-30 06:25:53,187 - nlmfsp.trainer - INFO -   L_FK (bwd): 4.004810
+2025-10-30 06:25:53,187 - nlmfsp.trainer - INFO -   L_Boundary (fwd): 0.446830
+2025-10-30 06:25:53,187 - nlmfsp.trainer - INFO -   L_Boundary (bwd): 3.584328
+2025-10-30 06:25:53,187 - nlmfsp.trainer - INFO -   Interaction learning: skipped
+2025-10-30 06:25:53,187 - nlmfsp.trainer - INFO -   Time: 107.70s
+2025-10-30 06:25:53,187 - nlmfsp.trainer - INFO - 
+2025-10-30 06:25:53,205 - nlmfsp.trainer - INFO - Checkpoint saved: outputs/experiments/analytical_gmm_navigation/exp_20251030_050837_lry1e-03_lrz5e-04_n200_ipf1_td1_fk1_b1_ema0.990/checkpoints/checkpoint_0042.pt
+2025-10-30 06:25:55,127 - nlmfsp.trainer - INFO - Iteration 43/100
+2025-10-30 06:27:42,850 - nlmfsp.trainer - INFO -   L_IPF (fwd): 1.234015
+2025-10-30 06:27:42,851 - nlmfsp.trainer - INFO -   L_IPF (bwd): 0.815220
+2025-10-30 06:27:42,851 - nlmfsp.trainer - INFO -   L_TD  (bwd): 28.257957
+2025-10-30 06:27:42,851 - nlmfsp.trainer - INFO -   L_TD  (fwd): 37.359894
+2025-10-30 06:27:42,851 - nlmfsp.trainer - INFO -   L_FK (fwd): 3.770157
+2025-10-30 06:27:42,851 - nlmfsp.trainer - INFO -   L_FK (bwd): 3.977351
+2025-10-30 06:27:42,851 - nlmfsp.trainer - INFO -   L_Boundary (fwd): 0.410821
+2025-10-30 06:27:42,851 - nlmfsp.trainer - INFO -   L_Boundary (bwd): 3.221065
+2025-10-30 06:27:42,851 - nlmfsp.trainer - INFO -   Interaction learning: skipped
+2025-10-30 06:27:42,851 - nlmfsp.trainer - INFO -   Time: 107.72s
+2025-10-30 06:27:42,851 - nlmfsp.trainer - INFO - 
+2025-10-30 06:27:42,870 - nlmfsp.trainer - INFO - Checkpoint saved: outputs/experiments/analytical_gmm_navigation/exp_20251030_050837_lry1e-03_lrz5e-04_n200_ipf1_td1_fk1_b1_ema0.990/checkpoints/checkpoint_0043.pt
+2025-10-30 06:27:44,998 - nlmfsp.trainer - INFO - Iteration 44/100
+2025-10-30 06:29:32,690 - nlmfsp.trainer - INFO -   L_IPF (fwd): 1.206317
+2025-10-30 06:29:32,690 - nlmfsp.trainer - INFO -   L_IPF (bwd): 0.779030
+2025-10-30 06:29:32,690 - nlmfsp.trainer - INFO -   L_TD  (bwd): 29.490843
+2025-10-30 06:29:32,690 - nlmfsp.trainer - INFO -   L_TD  (fwd): 37.687252
+2025-10-30 06:29:32,690 - nlmfsp.trainer - INFO -   L_FK (fwd): 3.787563
+2025-10-30 06:29:32,690 - nlmfsp.trainer - INFO -   L_FK (bwd): 3.957208
+2025-10-30 06:29:32,691 - nlmfsp.trainer - INFO -   L_Boundary (fwd): 0.377061
+2025-10-30 06:29:32,691 - nlmfsp.trainer - INFO -   L_Boundary (bwd): 4.065203
+2025-10-30 06:29:32,691 - nlmfsp.trainer - INFO -   Interaction learning: skipped
+2025-10-30 06:29:32,691 - nlmfsp.trainer - INFO -   Time: 107.69s
+2025-10-30 06:29:32,691 - nlmfsp.trainer - INFO - 
+2025-10-30 06:29:32,710 - nlmfsp.trainer - INFO - Checkpoint saved: outputs/experiments/analytical_gmm_navigation/exp_20251030_050837_lry1e-03_lrz5e-04_n200_ipf1_td1_fk1_b1_ema0.990/checkpoints/checkpoint_0044.pt
+2025-10-30 06:29:34,598 - nlmfsp.trainer - INFO - Iteration 45/100
+2025-10-30 06:31:22,350 - nlmfsp.trainer - INFO -   L_IPF (fwd): 1.200173
+2025-10-30 06:31:22,351 - nlmfsp.trainer - INFO -   L_IPF (bwd): 0.778275
+2025-10-30 06:31:22,351 - nlmfsp.trainer - INFO -   L_TD  (bwd): 29.834883
+2025-10-30 06:31:22,351 - nlmfsp.trainer - INFO -   L_TD  (fwd): 38.970890
+2025-10-30 06:31:22,351 - nlmfsp.trainer - INFO -   L_FK (fwd): 3.858080
+2025-10-30 06:31:22,351 - nlmfsp.trainer - INFO -   L_FK (bwd): 3.937209
+2025-10-30 06:31:22,351 - nlmfsp.trainer - INFO -   L_Boundary (fwd): 0.369964
+2025-10-30 06:31:22,351 - nlmfsp.trainer - INFO -   L_Boundary (bwd): 3.885625
+2025-10-30 06:31:22,351 - nlmfsp.trainer - INFO -   Interaction learning: skipped
+2025-10-30 06:31:22,351 - nlmfsp.trainer - INFO -   Time: 107.75s
+2025-10-30 06:31:22,351 - nlmfsp.trainer - INFO - 
+2025-10-30 06:31:22,371 - nlmfsp.trainer - INFO - Checkpoint saved: outputs/experiments/analytical_gmm_navigation/exp_20251030_050837_lry1e-03_lrz5e-04_n200_ipf1_td1_fk1_b1_ema0.990/checkpoints/checkpoint_0045.pt
+2025-10-30 06:31:24,507 - nlmfsp.trainer - INFO - Iteration 46/100
+2025-10-30 06:33:12,173 - nlmfsp.trainer - INFO -   L_IPF (fwd): 1.180571
+2025-10-30 06:33:12,173 - nlmfsp.trainer - INFO -   L_IPF (bwd): 0.752229
+2025-10-30 06:33:12,173 - nlmfsp.trainer - INFO -   L_TD  (bwd): 30.325035
+2025-10-30 06:33:12,174 - nlmfsp.trainer - INFO -   L_TD  (fwd): 35.371449
+2025-10-30 06:33:12,174 - nlmfsp.trainer - INFO -   L_FK (fwd): 3.723343
+2025-10-30 06:33:12,174 - nlmfsp.trainer - INFO -   L_FK (bwd): 4.005267
+2025-10-30 06:33:12,174 - nlmfsp.trainer - INFO -   L_Boundary (fwd): 0.385131
+2025-10-30 06:33:12,174 - nlmfsp.trainer - INFO -   L_Boundary (bwd): 2.998522
+2025-10-30 06:33:12,174 - nlmfsp.trainer - INFO -   Interaction learning: skipped
+2025-10-30 06:33:12,174 - nlmfsp.trainer - INFO -   Time: 107.67s
+2025-10-30 06:33:12,174 - nlmfsp.trainer - INFO - 
+2025-10-30 06:33:12,193 - nlmfsp.trainer - INFO - Checkpoint saved: outputs/experiments/analytical_gmm_navigation/exp_20251030_050837_lry1e-03_lrz5e-04_n200_ipf1_td1_fk1_b1_ema0.990/checkpoints/checkpoint_0046.pt
+2025-10-30 06:33:14,069 - nlmfsp.trainer - INFO - Iteration 47/100
+2025-10-30 06:35:01,655 - nlmfsp.trainer - INFO -   L_IPF (fwd): 1.197086
+2025-10-30 06:35:01,656 - nlmfsp.trainer - INFO -   L_IPF (bwd): 0.739916
+2025-10-30 06:35:01,656 - nlmfsp.trainer - INFO -   L_TD  (bwd): 29.842577
+2025-10-30 06:35:01,656 - nlmfsp.trainer - INFO -   L_TD  (fwd): 32.469559
+2025-10-30 06:35:01,656 - nlmfsp.trainer - INFO -   L_FK (fwd): 3.534215
+2025-10-30 06:35:01,656 - nlmfsp.trainer - INFO -   L_FK (bwd): 3.942235
+2025-10-30 06:35:01,656 - nlmfsp.trainer - INFO -   L_Boundary (fwd): 0.753275
+2025-10-30 06:35:01,656 - nlmfsp.trainer - INFO -   L_Boundary (bwd): 3.573786
+2025-10-30 06:35:01,656 - nlmfsp.trainer - INFO -   Interaction learning: skipped
+2025-10-30 06:35:01,656 - nlmfsp.trainer - INFO -   Time: 107.59s
+2025-10-30 06:35:01,656 - nlmfsp.trainer - INFO - 
+2025-10-30 06:35:01,675 - nlmfsp.trainer - INFO - Checkpoint saved: outputs/experiments/analytical_gmm_navigation/exp_20251030_050837_lry1e-03_lrz5e-04_n200_ipf1_td1_fk1_b1_ema0.990/checkpoints/checkpoint_0047.pt
+2025-10-30 06:35:03,788 - nlmfsp.trainer - INFO - Iteration 48/100
+2025-10-30 06:36:51,357 - nlmfsp.trainer - INFO -   L_IPF (fwd): 1.143131
+2025-10-30 06:36:51,357 - nlmfsp.trainer - INFO -   L_IPF (bwd): 0.706793
+2025-10-30 06:36:51,357 - nlmfsp.trainer - INFO -   L_TD  (bwd): 27.864504
+2025-10-30 06:36:51,357 - nlmfsp.trainer - INFO -   L_TD  (fwd): 30.037157
+2025-10-30 06:36:51,357 - nlmfsp.trainer - INFO -   L_FK (fwd): 3.425324
+2025-10-30 06:36:51,357 - nlmfsp.trainer - INFO -   L_FK (bwd): 3.851848
+2025-10-30 06:36:51,357 - nlmfsp.trainer - INFO -   L_Boundary (fwd): 0.363244
+2025-10-30 06:36:51,357 - nlmfsp.trainer - INFO -   L_Boundary (bwd): 2.644118
+2025-10-30 06:36:51,357 - nlmfsp.trainer - INFO -   Interaction learning: skipped
+2025-10-30 06:36:51,357 - nlmfsp.trainer - INFO -   Time: 107.57s
+2025-10-30 06:36:51,357 - nlmfsp.trainer - INFO - 
+2025-10-30 06:36:51,376 - nlmfsp.trainer - INFO - Checkpoint saved: outputs/experiments/analytical_gmm_navigation/exp_20251030_050837_lry1e-03_lrz5e-04_n200_ipf1_td1_fk1_b1_ema0.990/checkpoints/checkpoint_0048.pt
+2025-10-30 06:36:53,271 - nlmfsp.trainer - INFO - Iteration 49/100
+2025-10-30 06:38:40,882 - nlmfsp.trainer - INFO -   L_IPF (fwd): 1.154140
+2025-10-30 06:38:40,882 - nlmfsp.trainer - INFO -   L_IPF (bwd): 0.665255
+2025-10-30 06:38:40,882 - nlmfsp.trainer - INFO -   L_TD  (bwd): 25.862148
+2025-10-30 06:38:40,882 - nlmfsp.trainer - INFO -   L_TD  (fwd): 28.899679
+2025-10-30 06:38:40,882 - nlmfsp.trainer - INFO -   L_FK (fwd): 3.258204
+2025-10-30 06:38:40,882 - nlmfsp.trainer - INFO -   L_FK (bwd): 3.725646
+2025-10-30 06:38:40,882 - nlmfsp.trainer - INFO -   L_Boundary (fwd): 0.335893
+2025-10-30 06:38:40,882 - nlmfsp.trainer - INFO -   L_Boundary (bwd): 3.051800
+2025-10-30 06:38:40,882 - nlmfsp.trainer - INFO -   Interaction learning: skipped
+2025-10-30 06:38:40,882 - nlmfsp.trainer - INFO -   Time: 107.61s
+2025-10-30 06:38:40,882 - nlmfsp.trainer - INFO - 
+2025-10-30 06:38:40,901 - nlmfsp.trainer - INFO - Checkpoint saved: outputs/experiments/analytical_gmm_navigation/exp_20251030_050837_lry1e-03_lrz5e-04_n200_ipf1_td1_fk1_b1_ema0.990/checkpoints/checkpoint_0049.pt
+2025-10-30 06:38:43,034 - nlmfsp.trainer - INFO - Iteration 50/100
+2025-10-30 06:40:30,627 - nlmfsp.trainer - INFO -   L_IPF (fwd): 1.130154
+2025-10-30 06:40:30,627 - nlmfsp.trainer - INFO -   L_IPF (bwd): 0.651333
+2025-10-30 06:40:30,627 - nlmfsp.trainer - INFO -   L_TD  (bwd): 26.059513
+2025-10-30 06:40:30,627 - nlmfsp.trainer - INFO -   L_TD  (fwd): 28.554066
+2025-10-30 06:40:30,628 - nlmfsp.trainer - INFO -   L_FK (fwd): 3.159386
+2025-10-30 06:40:30,628 - nlmfsp.trainer - INFO -   L_FK (bwd): 3.703604
+2025-10-30 06:40:30,628 - nlmfsp.trainer - INFO -   L_Boundary (fwd): 0.336177
+2025-10-30 06:40:30,628 - nlmfsp.trainer - INFO -   L_Boundary (bwd): 2.748024
+2025-10-30 06:40:30,628 - nlmfsp.trainer - INFO -   Interaction learning: skipped
+2025-10-30 06:40:30,628 - nlmfsp.trainer - INFO -   Time: 107.59s
+2025-10-30 06:40:30,628 - nlmfsp.trainer - INFO - 
+2025-10-30 06:40:30,646 - nlmfsp.trainer - INFO - Checkpoint saved: outputs/experiments/analytical_gmm_navigation/exp_20251030_050837_lry1e-03_lrz5e-04_n200_ipf1_td1_fk1_b1_ema0.990/checkpoints/checkpoint_0050.pt
+2025-10-30 06:40:32,548 - nlmfsp.trainer - INFO - Iteration 51/100
+2025-10-30 06:42:20,178 - nlmfsp.trainer - INFO -   L_IPF (fwd): 1.117077
+2025-10-30 06:42:20,178 - nlmfsp.trainer - INFO -   L_IPF (bwd): 0.619763
+2025-10-30 06:42:20,178 - nlmfsp.trainer - INFO -   L_TD  (bwd): 25.315113
+2025-10-30 06:42:20,178 - nlmfsp.trainer - INFO -   L_TD  (fwd): 25.591112
+2025-10-30 06:42:20,178 - nlmfsp.trainer - INFO -   L_FK (fwd): 3.011410
+2025-10-30 06:42:20,178 - nlmfsp.trainer - INFO -   L_FK (bwd): 3.642847
+2025-10-30 06:42:20,178 - nlmfsp.trainer - INFO -   L_Boundary (fwd): 0.329326
+2025-10-30 06:42:20,178 - nlmfsp.trainer - INFO -   L_Boundary (bwd): 2.511155
+2025-10-30 06:42:20,178 - nlmfsp.trainer - INFO -   Interaction learning: skipped
+2025-10-30 06:42:20,178 - nlmfsp.trainer - INFO -   Time: 107.63s
+2025-10-30 06:42:20,178 - nlmfsp.trainer - INFO - 
+2025-10-30 06:42:20,197 - nlmfsp.trainer - INFO - Checkpoint saved: outputs/experiments/analytical_gmm_navigation/exp_20251030_050837_lry1e-03_lrz5e-04_n200_ipf1_td1_fk1_b1_ema0.990/checkpoints/checkpoint_0051.pt
+2025-10-30 06:42:22,337 - nlmfsp.trainer - INFO - Iteration 52/100
+2025-10-30 06:44:09,953 - nlmfsp.trainer - INFO -   L_IPF (fwd): 1.128582
+2025-10-30 06:44:09,953 - nlmfsp.trainer - INFO -   L_IPF (bwd): 0.615525
+2025-10-30 06:44:09,953 - nlmfsp.trainer - INFO -   L_TD  (bwd): 22.850769
+2025-10-30 06:44:09,953 - nlmfsp.trainer - INFO -   L_TD  (fwd): 26.207331
+2025-10-30 06:44:09,953 - nlmfsp.trainer - INFO -   L_FK (fwd): 2.996063
+2025-10-30 06:44:09,953 - nlmfsp.trainer - INFO -   L_FK (bwd): 3.575430
+2025-10-30 06:44:09,953 - nlmfsp.trainer - INFO -   L_Boundary (fwd): 0.290444
+2025-10-30 06:44:09,953 - nlmfsp.trainer - INFO -   L_Boundary (bwd): 2.678310
+2025-10-30 06:44:09,953 - nlmfsp.trainer - INFO -   Interaction learning: skipped
+2025-10-30 06:44:09,953 - nlmfsp.trainer - INFO -   Time: 107.62s
+2025-10-30 06:44:09,953 - nlmfsp.trainer - INFO - 
+2025-10-30 06:44:09,973 - nlmfsp.trainer - INFO - Checkpoint saved: outputs/experiments/analytical_gmm_navigation/exp_20251030_050837_lry1e-03_lrz5e-04_n200_ipf1_td1_fk1_b1_ema0.990/checkpoints/checkpoint_0052.pt
+2025-10-30 06:44:11,870 - nlmfsp.trainer - INFO - Iteration 53/100
+2025-10-30 06:45:59,498 - nlmfsp.trainer - INFO -   L_IPF (fwd): 1.101676
+2025-10-30 06:45:59,498 - nlmfsp.trainer - INFO -   L_IPF (bwd): 0.599222
+2025-10-30 06:45:59,498 - nlmfsp.trainer - INFO -   L_TD  (bwd): 25.464449
+2025-10-30 06:45:59,498 - nlmfsp.trainer - INFO -   L_TD  (fwd): 27.501673
+2025-10-30 06:45:59,498 - nlmfsp.trainer - INFO -   L_FK (fwd): 2.992781
+2025-10-30 06:45:59,498 - nlmfsp.trainer - INFO -   L_FK (bwd): 3.620992
+2025-10-30 06:45:59,498 - nlmfsp.trainer - INFO -   L_Boundary (fwd): 0.303113
+2025-10-30 06:45:59,498 - nlmfsp.trainer - INFO -   L_Boundary (bwd): 2.505020
+2025-10-30 06:45:59,498 - nlmfsp.trainer - INFO -   Interaction learning: skipped
+2025-10-30 06:45:59,498 - nlmfsp.trainer - INFO -   Time: 107.63s
+2025-10-30 06:45:59,498 - nlmfsp.trainer - INFO - 
+2025-10-30 06:45:59,517 - nlmfsp.trainer - INFO - Checkpoint saved: outputs/experiments/analytical_gmm_navigation/exp_20251030_050837_lry1e-03_lrz5e-04_n200_ipf1_td1_fk1_b1_ema0.990/checkpoints/checkpoint_0053.pt
+2025-10-30 06:46:01,649 - nlmfsp.trainer - INFO - Iteration 54/100
+2025-10-30 06:47:49,275 - nlmfsp.trainer - INFO -   L_IPF (fwd): 1.115627
+2025-10-30 06:47:49,275 - nlmfsp.trainer - INFO -   L_IPF (bwd): 0.557790
+2025-10-30 06:47:49,275 - nlmfsp.trainer - INFO -   L_TD  (bwd): 24.020107
+2025-10-30 06:47:49,275 - nlmfsp.trainer - INFO -   L_TD  (fwd): 26.267971
+2025-10-30 06:47:49,275 - nlmfsp.trainer - INFO -   L_FK (fwd): 2.969165
+2025-10-30 06:47:49,275 - nlmfsp.trainer - INFO -   L_FK (bwd): 3.615574
+2025-10-30 06:47:49,275 - nlmfsp.trainer - INFO -   L_Boundary (fwd): 0.311344
+2025-10-30 06:47:49,275 - nlmfsp.trainer - INFO -   L_Boundary (bwd): 2.277024
+2025-10-30 06:47:49,275 - nlmfsp.trainer - INFO -   Interaction learning: skipped
+2025-10-30 06:47:49,275 - nlmfsp.trainer - INFO -   Time: 107.63s
+2025-10-30 06:47:49,275 - nlmfsp.trainer - INFO - 
+2025-10-30 06:47:49,295 - nlmfsp.trainer - INFO - Checkpoint saved: outputs/experiments/analytical_gmm_navigation/exp_20251030_050837_lry1e-03_lrz5e-04_n200_ipf1_td1_fk1_b1_ema0.990/checkpoints/checkpoint_0054.pt
+2025-10-30 06:47:51,198 - nlmfsp.trainer - INFO - Iteration 55/100
+2025-10-30 06:49:38,858 - nlmfsp.trainer - INFO -   L_IPF (fwd): 1.093382
+2025-10-30 06:49:38,858 - nlmfsp.trainer - INFO -   L_IPF (bwd): 0.513445
+2025-10-30 06:49:38,858 - nlmfsp.trainer - INFO -   L_TD  (bwd): 25.476042
+2025-10-30 06:49:38,858 - nlmfsp.trainer - INFO -   L_TD  (fwd): 25.372425
+2025-10-30 06:49:38,858 - nlmfsp.trainer - INFO -   L_FK (fwd): 2.875135
+2025-10-30 06:49:38,858 - nlmfsp.trainer - INFO -   L_FK (bwd): 3.667121
+2025-10-30 06:49:38,858 - nlmfsp.trainer - INFO -   L_Boundary (fwd): 0.334132
+2025-10-30 06:49:38,858 - nlmfsp.trainer - INFO -   L_Boundary (bwd): 3.034856
+2025-10-30 06:49:38,858 - nlmfsp.trainer - INFO -   Interaction learning: skipped
+2025-10-30 06:49:38,858 - nlmfsp.trainer - INFO -   Time: 107.66s
+2025-10-30 06:49:38,858 - nlmfsp.trainer - INFO - 
+2025-10-30 06:49:38,878 - nlmfsp.trainer - INFO - Checkpoint saved: outputs/experiments/analytical_gmm_navigation/exp_20251030_050837_lry1e-03_lrz5e-04_n200_ipf1_td1_fk1_b1_ema0.990/checkpoints/checkpoint_0055.pt
+2025-10-30 06:49:41,033 - nlmfsp.trainer - INFO - Iteration 56/100
+2025-10-30 06:51:28,653 - nlmfsp.trainer - INFO -   L_IPF (fwd): 1.099208
+2025-10-30 06:51:28,653 - nlmfsp.trainer - INFO -   L_IPF (bwd): 0.498757
+2025-10-30 06:51:28,653 - nlmfsp.trainer - INFO -   L_TD  (bwd): 23.908644
+2025-10-30 06:51:28,653 - nlmfsp.trainer - INFO -   L_TD  (fwd): 25.929886
+2025-10-30 06:51:28,653 - nlmfsp.trainer - INFO -   L_FK (fwd): 2.877938
+2025-10-30 06:51:28,653 - nlmfsp.trainer - INFO -   L_FK (bwd): 3.574386
+2025-10-30 06:51:28,653 - nlmfsp.trainer - INFO -   L_Boundary (fwd): 0.335963
+2025-10-30 06:51:28,653 - nlmfsp.trainer - INFO -   L_Boundary (bwd): 2.373458
+2025-10-30 06:51:28,653 - nlmfsp.trainer - INFO -   Interaction learning: skipped
+2025-10-30 06:51:28,653 - nlmfsp.trainer - INFO -   Time: 107.62s
+2025-10-30 06:51:28,653 - nlmfsp.trainer - INFO - 
+2025-10-30 06:51:28,672 - nlmfsp.trainer - INFO - Checkpoint saved: outputs/experiments/analytical_gmm_navigation/exp_20251030_050837_lry1e-03_lrz5e-04_n200_ipf1_td1_fk1_b1_ema0.990/checkpoints/checkpoint_0056.pt
+2025-10-30 06:51:30,572 - nlmfsp.trainer - INFO - Iteration 57/100
+2025-10-30 06:53:18,246 - nlmfsp.trainer - INFO -   L_IPF (fwd): 1.137069
+2025-10-30 06:53:18,246 - nlmfsp.trainer - INFO -   L_IPF (bwd): 0.510943
+2025-10-30 06:53:18,246 - nlmfsp.trainer - INFO -   L_TD  (bwd): 24.547117
+2025-10-30 06:53:18,246 - nlmfsp.trainer - INFO -   L_TD  (fwd): 26.375740
+2025-10-30 06:53:18,246 - nlmfsp.trainer - INFO -   L_FK (fwd): 2.861026
+2025-10-30 06:53:18,246 - nlmfsp.trainer - INFO -   L_FK (bwd): 3.567035
+2025-10-30 06:53:18,246 - nlmfsp.trainer - INFO -   L_Boundary (fwd): 0.308581
+2025-10-30 06:53:18,246 - nlmfsp.trainer - INFO -   L_Boundary (bwd): 2.084532
+2025-10-30 06:53:18,246 - nlmfsp.trainer - INFO -   Interaction learning: skipped
+2025-10-30 06:53:18,246 - nlmfsp.trainer - INFO -   Time: 107.67s
+2025-10-30 06:53:18,246 - nlmfsp.trainer - INFO - 
+2025-10-30 06:53:18,265 - nlmfsp.trainer - INFO - Checkpoint saved: outputs/experiments/analytical_gmm_navigation/exp_20251030_050837_lry1e-03_lrz5e-04_n200_ipf1_td1_fk1_b1_ema0.990/checkpoints/checkpoint_0057.pt
+2025-10-30 06:53:20,409 - nlmfsp.trainer - INFO - Iteration 58/100
+2025-10-30 06:55:08,009 - nlmfsp.trainer - INFO -   L_IPF (fwd): 1.213833
+2025-10-30 06:55:08,009 - nlmfsp.trainer - INFO -   L_IPF (bwd): 0.542884
+2025-10-30 06:55:08,009 - nlmfsp.trainer - INFO -   L_TD  (bwd): 25.107880
+2025-10-30 06:55:08,009 - nlmfsp.trainer - INFO -   L_TD  (fwd): 26.725336
+2025-10-30 06:55:08,009 - nlmfsp.trainer - INFO -   L_FK (fwd): 2.895106
+2025-10-30 06:55:08,010 - nlmfsp.trainer - INFO -   L_FK (bwd): 3.560737
+2025-10-30 06:55:08,010 - nlmfsp.trainer - INFO -   L_Boundary (fwd): 0.400348
+2025-10-30 06:55:08,010 - nlmfsp.trainer - INFO -   L_Boundary (bwd): 2.748989
+2025-10-30 06:55:08,010 - nlmfsp.trainer - INFO -   Interaction learning: skipped
+2025-10-30 06:55:08,010 - nlmfsp.trainer - INFO -   Time: 107.60s
+2025-10-30 06:55:08,010 - nlmfsp.trainer - INFO - 
+2025-10-30 06:55:08,029 - nlmfsp.trainer - INFO - Checkpoint saved: outputs/experiments/analytical_gmm_navigation/exp_20251030_050837_lry1e-03_lrz5e-04_n200_ipf1_td1_fk1_b1_ema0.990/checkpoints/checkpoint_0058.pt
+2025-10-30 06:55:09,953 - nlmfsp.trainer - INFO - Iteration 59/100
+2025-10-30 06:56:57,608 - nlmfsp.trainer - INFO -   L_IPF (fwd): 1.238226
+2025-10-30 06:56:57,608 - nlmfsp.trainer - INFO -   L_IPF (bwd): 0.548419
+2025-10-30 06:56:57,608 - nlmfsp.trainer - INFO -   L_TD  (bwd): 26.550566
+2025-10-30 06:56:57,608 - nlmfsp.trainer - INFO -   L_TD  (fwd): 27.218594
+2025-10-30 06:56:57,608 - nlmfsp.trainer - INFO -   L_FK (fwd): 2.897314
+2025-10-30 06:56:57,608 - nlmfsp.trainer - INFO -   L_FK (bwd): 3.662198
+2025-10-30 06:56:57,608 - nlmfsp.trainer - INFO -   L_Boundary (fwd): 0.350428
+2025-10-30 06:56:57,608 - nlmfsp.trainer - INFO -   L_Boundary (bwd): 3.361579
+2025-10-30 06:56:57,608 - nlmfsp.trainer - INFO -   Interaction learning: skipped
+2025-10-30 06:56:57,608 - nlmfsp.trainer - INFO -   Time: 107.65s
+2025-10-30 06:56:57,608 - nlmfsp.trainer - INFO - 
+2025-10-30 06:56:57,627 - nlmfsp.trainer - INFO - Checkpoint saved: outputs/experiments/analytical_gmm_navigation/exp_20251030_050837_lry1e-03_lrz5e-04_n200_ipf1_td1_fk1_b1_ema0.990/checkpoints/checkpoint_0059.pt
+2025-10-30 06:56:59,810 - nlmfsp.trainer - INFO - Iteration 60/100
+2025-10-30 06:58:47,425 - nlmfsp.trainer - INFO -   L_IPF (fwd): 1.248339
+2025-10-30 06:58:47,426 - nlmfsp.trainer - INFO -   L_IPF (bwd): 0.544874
+2025-10-30 06:58:47,426 - nlmfsp.trainer - INFO -   L_TD  (bwd): 27.945934
+2025-10-30 06:58:47,426 - nlmfsp.trainer - INFO -   L_TD  (fwd): 24.609571
+2025-10-30 06:58:47,426 - nlmfsp.trainer - INFO -   L_FK (fwd): 2.812109
+2025-10-30 06:58:47,426 - nlmfsp.trainer - INFO -   L_FK (bwd): 3.665022
+2025-10-30 06:58:47,426 - nlmfsp.trainer - INFO -   L_Boundary (fwd): 0.313796
+2025-10-30 06:58:47,426 - nlmfsp.trainer - INFO -   L_Boundary (bwd): 2.507010
+2025-10-30 06:58:47,426 - nlmfsp.trainer - INFO -   Interaction learning: skipped
+2025-10-30 06:58:47,426 - nlmfsp.trainer - INFO -   Time: 107.62s
+2025-10-30 06:58:47,426 - nlmfsp.trainer - INFO - 
+2025-10-30 06:58:47,445 - nlmfsp.trainer - INFO - Checkpoint saved: outputs/experiments/analytical_gmm_navigation/exp_20251030_050837_lry1e-03_lrz5e-04_n200_ipf1_td1_fk1_b1_ema0.990/checkpoints/checkpoint_0060.pt
+2025-10-30 06:58:49,374 - nlmfsp.trainer - INFO - Iteration 61/100
+2025-10-30 07:00:37,033 - nlmfsp.trainer - INFO -   L_IPF (fwd): 1.298853
+2025-10-30 07:00:37,033 - nlmfsp.trainer - INFO -   L_IPF (bwd): 0.504593
+2025-10-30 07:00:37,033 - nlmfsp.trainer - INFO -   L_TD  (bwd): 25.965193
+2025-10-30 07:00:37,034 - nlmfsp.trainer - INFO -   L_TD  (fwd): 24.747908
+2025-10-30 07:00:37,034 - nlmfsp.trainer - INFO -   L_FK (fwd): 2.751847
+2025-10-30 07:00:37,034 - nlmfsp.trainer - INFO -   L_FK (bwd): 3.632745
+2025-10-30 07:00:37,034 - nlmfsp.trainer - INFO -   L_Boundary (fwd): 0.370229
+2025-10-30 07:00:37,034 - nlmfsp.trainer - INFO -   L_Boundary (bwd): 2.700879
+2025-10-30 07:00:37,034 - nlmfsp.trainer - INFO -   Interaction learning: skipped
+2025-10-30 07:00:37,034 - nlmfsp.trainer - INFO -   Time: 107.66s
+2025-10-30 07:00:37,034 - nlmfsp.trainer - INFO - 
+2025-10-30 07:00:37,053 - nlmfsp.trainer - INFO - Checkpoint saved: outputs/experiments/analytical_gmm_navigation/exp_20251030_050837_lry1e-03_lrz5e-04_n200_ipf1_td1_fk1_b1_ema0.990/checkpoints/checkpoint_0061.pt
+2025-10-30 07:00:39,237 - nlmfsp.trainer - INFO - Iteration 62/100
+2025-10-30 07:02:26,895 - nlmfsp.trainer - INFO -   L_IPF (fwd): 1.341285
+2025-10-30 07:02:26,895 - nlmfsp.trainer - INFO -   L_IPF (bwd): 0.515269
+2025-10-30 07:02:26,895 - nlmfsp.trainer - INFO -   L_TD  (bwd): 24.314495
+2025-10-30 07:02:26,895 - nlmfsp.trainer - INFO -   L_TD  (fwd): 24.887789
+2025-10-30 07:02:26,895 - nlmfsp.trainer - INFO -   L_FK (fwd): 2.790567
+2025-10-30 07:02:26,895 - nlmfsp.trainer - INFO -   L_FK (bwd): 3.586237
+2025-10-30 07:02:26,895 - nlmfsp.trainer - INFO -   L_Boundary (fwd): 0.361406
+2025-10-30 07:02:26,895 - nlmfsp.trainer - INFO -   L_Boundary (bwd): 3.036886
+2025-10-30 07:02:26,895 - nlmfsp.trainer - INFO -   Interaction learning: skipped
+2025-10-30 07:02:26,895 - nlmfsp.trainer - INFO -   Time: 107.66s
+2025-10-30 07:02:26,895 - nlmfsp.trainer - INFO - 
+2025-10-30 07:02:26,914 - nlmfsp.trainer - INFO - Checkpoint saved: outputs/experiments/analytical_gmm_navigation/exp_20251030_050837_lry1e-03_lrz5e-04_n200_ipf1_td1_fk1_b1_ema0.990/checkpoints/checkpoint_0062.pt
+2025-10-30 07:02:28,838 - nlmfsp.trainer - INFO - Iteration 63/100
+2025-10-30 07:04:16,486 - nlmfsp.trainer - INFO -   L_IPF (fwd): 1.349794
+2025-10-30 07:04:16,487 - nlmfsp.trainer - INFO -   L_IPF (bwd): 0.504754
+2025-10-30 07:04:16,487 - nlmfsp.trainer - INFO -   L_TD  (bwd): 22.930254
+2025-10-30 07:04:16,487 - nlmfsp.trainer - INFO -   L_TD  (fwd): 24.312450
+2025-10-30 07:04:16,487 - nlmfsp.trainer - INFO -   L_FK (fwd): 2.771007
+2025-10-30 07:04:16,487 - nlmfsp.trainer - INFO -   L_FK (bwd): 3.587036
+2025-10-30 07:04:16,487 - nlmfsp.trainer - INFO -   L_Boundary (fwd): 0.316651
+2025-10-30 07:04:16,487 - nlmfsp.trainer - INFO -   L_Boundary (bwd): 2.410891
+2025-10-30 07:04:16,487 - nlmfsp.trainer - INFO -   Interaction learning: skipped
+2025-10-30 07:04:16,487 - nlmfsp.trainer - INFO -   Time: 107.65s
+2025-10-30 07:04:16,487 - nlmfsp.trainer - INFO - 
+2025-10-30 07:04:16,506 - nlmfsp.trainer - INFO - Checkpoint saved: outputs/experiments/analytical_gmm_navigation/exp_20251030_050837_lry1e-03_lrz5e-04_n200_ipf1_td1_fk1_b1_ema0.990/checkpoints/checkpoint_0063.pt
+2025-10-30 07:04:18,693 - nlmfsp.trainer - INFO - Iteration 64/100
+2025-10-30 07:06:06,323 - nlmfsp.trainer - INFO -   L_IPF (fwd): 1.419023
+2025-10-30 07:06:06,323 - nlmfsp.trainer - INFO -   L_IPF (bwd): 0.517481
+2025-10-30 07:06:06,323 - nlmfsp.trainer - INFO -   L_TD  (bwd): 23.504436
+2025-10-30 07:06:06,323 - nlmfsp.trainer - INFO -   L_TD  (fwd): 26.707750
+2025-10-30 07:06:06,323 - nlmfsp.trainer - INFO -   L_FK (fwd): 2.843301
+2025-10-30 07:06:06,323 - nlmfsp.trainer - INFO -   L_FK (bwd): 3.578737
+2025-10-30 07:06:06,324 - nlmfsp.trainer - INFO -   L_Boundary (fwd): 0.327888
+2025-10-30 07:06:06,324 - nlmfsp.trainer - INFO -   L_Boundary (bwd): 2.526923
+2025-10-30 07:06:06,324 - nlmfsp.trainer - INFO -   Interaction learning: skipped
+2025-10-30 07:06:06,324 - nlmfsp.trainer - INFO -   Time: 107.63s
+2025-10-30 07:06:06,324 - nlmfsp.trainer - INFO - 
+2025-10-30 07:06:06,343 - nlmfsp.trainer - INFO - Checkpoint saved: outputs/experiments/analytical_gmm_navigation/exp_20251030_050837_lry1e-03_lrz5e-04_n200_ipf1_td1_fk1_b1_ema0.990/checkpoints/checkpoint_0064.pt
+2025-10-30 07:06:08,269 - nlmfsp.trainer - INFO - Iteration 65/100
+2025-10-30 07:07:55,925 - nlmfsp.trainer - INFO -   L_IPF (fwd): 1.447284
+2025-10-30 07:07:55,925 - nlmfsp.trainer - INFO -   L_IPF (bwd): 0.532332
+2025-10-30 07:07:55,925 - nlmfsp.trainer - INFO -   L_TD  (bwd): 25.956522
+2025-10-30 07:07:55,925 - nlmfsp.trainer - INFO -   L_TD  (fwd): 29.469879
+2025-10-30 07:07:55,925 - nlmfsp.trainer - INFO -   L_FK (fwd): 2.978119
+2025-10-30 07:07:55,925 - nlmfsp.trainer - INFO -   L_FK (bwd): 3.642640
+2025-10-30 07:07:55,925 - nlmfsp.trainer - INFO -   L_Boundary (fwd): 0.329639
+2025-10-30 07:07:55,925 - nlmfsp.trainer - INFO -   L_Boundary (bwd): 2.403186
+2025-10-30 07:07:55,925 - nlmfsp.trainer - INFO -   Interaction learning: skipped
+2025-10-30 07:07:55,925 - nlmfsp.trainer - INFO -   Time: 107.66s
+2025-10-30 07:07:55,925 - nlmfsp.trainer - INFO - 
+2025-10-30 07:07:55,944 - nlmfsp.trainer - INFO - Checkpoint saved: outputs/experiments/analytical_gmm_navigation/exp_20251030_050837_lry1e-03_lrz5e-04_n200_ipf1_td1_fk1_b1_ema0.990/checkpoints/checkpoint_0065.pt
+2025-10-30 07:07:58,142 - nlmfsp.trainer - INFO - Iteration 66/100
+2025-10-30 07:09:45,768 - nlmfsp.trainer - INFO -   L_IPF (fwd): 1.453286
+2025-10-30 07:09:45,768 - nlmfsp.trainer - INFO -   L_IPF (bwd): 0.530494
+2025-10-30 07:09:45,768 - nlmfsp.trainer - INFO -   L_TD  (bwd): 25.197184
+2025-10-30 07:09:45,768 - nlmfsp.trainer - INFO -   L_TD  (fwd): 28.380095
+2025-10-30 07:09:45,769 - nlmfsp.trainer - INFO -   L_FK (fwd): 2.831626
+2025-10-30 07:09:45,769 - nlmfsp.trainer - INFO -   L_FK (bwd): 3.635782
+2025-10-30 07:09:45,769 - nlmfsp.trainer - INFO -   L_Boundary (fwd): 0.264244
+2025-10-30 07:09:45,769 - nlmfsp.trainer - INFO -   L_Boundary (bwd): 2.812090
+2025-10-30 07:09:45,769 - nlmfsp.trainer - INFO -   Interaction learning: skipped
+2025-10-30 07:09:45,769 - nlmfsp.trainer - INFO -   Time: 107.63s
+2025-10-30 07:09:45,769 - nlmfsp.trainer - INFO - 
+2025-10-30 07:09:45,788 - nlmfsp.trainer - INFO - Checkpoint saved: outputs/experiments/analytical_gmm_navigation/exp_20251030_050837_lry1e-03_lrz5e-04_n200_ipf1_td1_fk1_b1_ema0.990/checkpoints/checkpoint_0066.pt
+2025-10-30 07:09:47,712 - nlmfsp.trainer - INFO - Iteration 67/100
+2025-10-30 07:11:35,340 - nlmfsp.trainer - INFO -   L_IPF (fwd): 1.488573
+2025-10-30 07:11:35,340 - nlmfsp.trainer - INFO -   L_IPF (bwd): 0.547231
+2025-10-30 07:11:35,340 - nlmfsp.trainer - INFO -   L_TD  (bwd): 26.594814
+2025-10-30 07:11:35,340 - nlmfsp.trainer - INFO -   L_TD  (fwd): 28.048534
+2025-10-30 07:11:35,340 - nlmfsp.trainer - INFO -   L_FK (fwd): 2.825722
+2025-10-30 07:11:35,340 - nlmfsp.trainer - INFO -   L_FK (bwd): 3.652345
+2025-10-30 07:11:35,340 - nlmfsp.trainer - INFO -   L_Boundary (fwd): 0.331213
+2025-10-30 07:11:35,340 - nlmfsp.trainer - INFO -   L_Boundary (bwd): 2.628585
+2025-10-30 07:11:35,340 - nlmfsp.trainer - INFO -   Interaction learning: skipped
+2025-10-30 07:11:35,340 - nlmfsp.trainer - INFO -   Time: 107.63s
+2025-10-30 07:11:35,340 - nlmfsp.trainer - INFO - 
+2025-10-30 07:11:35,359 - nlmfsp.trainer - INFO - Checkpoint saved: outputs/experiments/analytical_gmm_navigation/exp_20251030_050837_lry1e-03_lrz5e-04_n200_ipf1_td1_fk1_b1_ema0.990/checkpoints/checkpoint_0067.pt
+2025-10-30 07:11:37,568 - nlmfsp.trainer - INFO - Iteration 68/100
+2025-10-30 07:13:25,211 - nlmfsp.trainer - INFO -   L_IPF (fwd): 1.492150
+2025-10-30 07:13:25,211 - nlmfsp.trainer - INFO -   L_IPF (bwd): 0.565203
+2025-10-30 07:13:25,211 - nlmfsp.trainer - INFO -   L_TD  (bwd): 27.074900
+2025-10-30 07:13:25,212 - nlmfsp.trainer - INFO -   L_TD  (fwd): 29.028887
+2025-10-30 07:13:25,212 - nlmfsp.trainer - INFO -   L_FK (fwd): 2.808384
+2025-10-30 07:13:25,212 - nlmfsp.trainer - INFO -   L_FK (bwd): 3.640590
+2025-10-30 07:13:25,212 - nlmfsp.trainer - INFO -   L_Boundary (fwd): 0.359405
+2025-10-30 07:13:25,212 - nlmfsp.trainer - INFO -   L_Boundary (bwd): 2.849718
+2025-10-30 07:13:25,212 - nlmfsp.trainer - INFO -   Interaction learning: skipped
+2025-10-30 07:13:25,212 - nlmfsp.trainer - INFO -   Time: 107.64s
+2025-10-30 07:13:25,212 - nlmfsp.trainer - INFO - 
+2025-10-30 07:13:25,232 - nlmfsp.trainer - INFO - Checkpoint saved: outputs/experiments/analytical_gmm_navigation/exp_20251030_050837_lry1e-03_lrz5e-04_n200_ipf1_td1_fk1_b1_ema0.990/checkpoints/checkpoint_0068.pt
+2025-10-30 07:13:27,191 - nlmfsp.trainer - INFO - Iteration 69/100
+2025-10-30 07:15:14,874 - nlmfsp.trainer - INFO -   L_IPF (fwd): 1.544599
+2025-10-30 07:15:14,875 - nlmfsp.trainer - INFO -   L_IPF (bwd): 0.598990
+2025-10-30 07:15:14,875 - nlmfsp.trainer - INFO -   L_TD  (bwd): 23.104460
+2025-10-30 07:15:14,875 - nlmfsp.trainer - INFO -   L_TD  (fwd): 26.406145
+2025-10-30 07:15:14,875 - nlmfsp.trainer - INFO -   L_FK (fwd): 2.769230
+2025-10-30 07:15:14,875 - nlmfsp.trainer - INFO -   L_FK (bwd): 3.552127
+2025-10-30 07:15:14,875 - nlmfsp.trainer - INFO -   L_Boundary (fwd): 0.273153
+2025-10-30 07:15:14,875 - nlmfsp.trainer - INFO -   L_Boundary (bwd): 1.942935
+2025-10-30 07:15:14,875 - nlmfsp.trainer - INFO -   Interaction learning: skipped
+2025-10-30 07:15:14,875 - nlmfsp.trainer - INFO -   Time: 107.68s
+2025-10-30 07:15:14,875 - nlmfsp.trainer - INFO - 
+2025-10-30 07:15:14,894 - nlmfsp.trainer - INFO - Checkpoint saved: outputs/experiments/analytical_gmm_navigation/exp_20251030_050837_lry1e-03_lrz5e-04_n200_ipf1_td1_fk1_b1_ema0.990/checkpoints/checkpoint_0069.pt
+2025-10-30 07:15:17,147 - nlmfsp.trainer - INFO - Iteration 70/100
+2025-10-30 07:17:05,170 - nlmfsp.trainer - INFO -   L_IPF (fwd): 1.548103
+2025-10-30 07:17:05,171 - nlmfsp.trainer - INFO -   L_IPF (bwd): 0.603196
+2025-10-30 07:17:05,171 - nlmfsp.trainer - INFO -   L_TD  (bwd): 27.049166
+2025-10-30 07:17:05,171 - nlmfsp.trainer - INFO -   L_TD  (fwd): 27.116837
+2025-10-30 07:17:05,171 - nlmfsp.trainer - INFO -   L_FK (fwd): 2.805885
+2025-10-30 07:17:05,171 - nlmfsp.trainer - INFO -   L_FK (bwd): 3.588079
+2025-10-30 07:17:05,171 - nlmfsp.trainer - INFO -   L_Boundary (fwd): 0.268943
+2025-10-30 07:17:05,171 - nlmfsp.trainer - INFO -   L_Boundary (bwd): 2.110188
+2025-10-30 07:17:05,171 - nlmfsp.trainer - INFO -   Interaction learning: skipped
+2025-10-30 07:17:05,171 - nlmfsp.trainer - INFO -   Time: 108.02s
+2025-10-30 07:17:05,171 - nlmfsp.trainer - INFO - 
+2025-10-30 07:17:05,192 - nlmfsp.trainer - INFO - Checkpoint saved: outputs/experiments/analytical_gmm_navigation/exp_20251030_050837_lry1e-03_lrz5e-04_n200_ipf1_td1_fk1_b1_ema0.990/checkpoints/checkpoint_0070.pt
+2025-10-30 07:17:07,193 - nlmfsp.trainer - INFO - Iteration 71/100
+2025-10-30 07:18:55,237 - nlmfsp.trainer - INFO -   L_IPF (fwd): 1.567777
+2025-10-30 07:18:55,237 - nlmfsp.trainer - INFO -   L_IPF (bwd): 0.569195
+2025-10-30 07:18:55,237 - nlmfsp.trainer - INFO -   L_TD  (bwd): 22.954670
+2025-10-30 07:18:55,237 - nlmfsp.trainer - INFO -   L_TD  (fwd): 26.065172
+2025-10-30 07:18:55,237 - nlmfsp.trainer - INFO -   L_FK (fwd): 2.700941
+2025-10-30 07:18:55,237 - nlmfsp.trainer - INFO -   L_FK (bwd): 3.433440
+2025-10-30 07:18:55,237 - nlmfsp.trainer - INFO -   L_Boundary (fwd): 0.360208
+2025-10-30 07:18:55,237 - nlmfsp.trainer - INFO -   L_Boundary (bwd): 1.939283
+2025-10-30 07:18:55,237 - nlmfsp.trainer - INFO -   Interaction learning: skipped
+2025-10-30 07:18:55,237 - nlmfsp.trainer - INFO -   Time: 108.04s
+2025-10-30 07:18:55,237 - nlmfsp.trainer - INFO - 
+2025-10-30 07:18:55,257 - nlmfsp.trainer - INFO - Checkpoint saved: outputs/experiments/analytical_gmm_navigation/exp_20251030_050837_lry1e-03_lrz5e-04_n200_ipf1_td1_fk1_b1_ema0.990/checkpoints/checkpoint_0071.pt
+2025-10-30 07:18:57,521 - nlmfsp.trainer - INFO - Iteration 72/100
+2025-10-30 07:20:45,500 - nlmfsp.trainer - INFO -   L_IPF (fwd): 1.550288
+2025-10-30 07:20:45,500 - nlmfsp.trainer - INFO -   L_IPF (bwd): 0.597161
+2025-10-30 07:20:45,500 - nlmfsp.trainer - INFO -   L_TD  (bwd): 23.726128
+2025-10-30 07:20:45,500 - nlmfsp.trainer - INFO -   L_TD  (fwd): 26.947567
+2025-10-30 07:20:45,500 - nlmfsp.trainer - INFO -   L_FK (fwd): 2.813891
+2025-10-30 07:20:45,500 - nlmfsp.trainer - INFO -   L_FK (bwd): 3.469172
+2025-10-30 07:20:45,500 - nlmfsp.trainer - INFO -   L_Boundary (fwd): 0.330454
+2025-10-30 07:20:45,500 - nlmfsp.trainer - INFO -   L_Boundary (bwd): 2.590901
+2025-10-30 07:20:45,500 - nlmfsp.trainer - INFO -   Interaction learning: skipped
+2025-10-30 07:20:45,500 - nlmfsp.trainer - INFO -   Time: 107.98s
+2025-10-30 07:20:45,500 - nlmfsp.trainer - INFO - 
+2025-10-30 07:20:45,520 - nlmfsp.trainer - INFO - Checkpoint saved: outputs/experiments/analytical_gmm_navigation/exp_20251030_050837_lry1e-03_lrz5e-04_n200_ipf1_td1_fk1_b1_ema0.990/checkpoints/checkpoint_0072.pt
+2025-10-30 07:20:47,530 - nlmfsp.trainer - INFO - Iteration 73/100
+2025-10-30 07:22:35,645 - nlmfsp.trainer - INFO -   L_IPF (fwd): 1.592313
+2025-10-30 07:22:35,645 - nlmfsp.trainer - INFO -   L_IPF (bwd): 0.581460
+2025-10-30 07:22:35,645 - nlmfsp.trainer - INFO -   L_TD  (bwd): 25.206154
+2025-10-30 07:22:35,645 - nlmfsp.trainer - INFO -   L_TD  (fwd): 22.711533
+2025-10-30 07:22:35,645 - nlmfsp.trainer - INFO -   L_FK (fwd): 2.710975
+2025-10-30 07:22:35,645 - nlmfsp.trainer - INFO -   L_FK (bwd): 3.497056
+2025-10-30 07:22:35,645 - nlmfsp.trainer - INFO -   L_Boundary (fwd): 0.345457
+2025-10-30 07:22:35,645 - nlmfsp.trainer - INFO -   L_Boundary (bwd): 2.579129
+2025-10-30 07:22:35,645 - nlmfsp.trainer - INFO -   Interaction learning: skipped
+2025-10-30 07:22:35,645 - nlmfsp.trainer - INFO -   Time: 108.11s
+2025-10-30 07:22:35,645 - nlmfsp.trainer - INFO - 
+2025-10-30 07:22:35,665 - nlmfsp.trainer - INFO - Checkpoint saved: outputs/experiments/analytical_gmm_navigation/exp_20251030_050837_lry1e-03_lrz5e-04_n200_ipf1_td1_fk1_b1_ema0.990/checkpoints/checkpoint_0073.pt
+2025-10-30 07:22:37,956 - nlmfsp.trainer - INFO - Iteration 74/100
+2025-10-30 07:24:26,004 - nlmfsp.trainer - INFO -   L_IPF (fwd): 1.611646
+2025-10-30 07:24:26,005 - nlmfsp.trainer - INFO -   L_IPF (bwd): 0.586557
+2025-10-30 07:24:26,005 - nlmfsp.trainer - INFO -   L_TD  (bwd): 21.131422
+2025-10-30 07:24:26,005 - nlmfsp.trainer - INFO -   L_TD  (fwd): 23.017075
+2025-10-30 07:24:26,005 - nlmfsp.trainer - INFO -   L_FK (fwd): 2.671318
+2025-10-30 07:24:26,005 - nlmfsp.trainer - INFO -   L_FK (bwd): 3.378150
+2025-10-30 07:24:26,005 - nlmfsp.trainer - INFO -   L_Boundary (fwd): 0.339734
+2025-10-30 07:24:26,005 - nlmfsp.trainer - INFO -   L_Boundary (bwd): 1.903996
+2025-10-30 07:24:26,005 - nlmfsp.trainer - INFO -   Interaction learning: skipped
+2025-10-30 07:24:26,005 - nlmfsp.trainer - INFO -   Time: 108.05s
+2025-10-30 07:24:26,005 - nlmfsp.trainer - INFO - 
+2025-10-30 07:24:26,024 - nlmfsp.trainer - INFO - Checkpoint saved: outputs/experiments/analytical_gmm_navigation/exp_20251030_050837_lry1e-03_lrz5e-04_n200_ipf1_td1_fk1_b1_ema0.990/checkpoints/checkpoint_0074.pt
+2025-10-30 07:24:28,051 - nlmfsp.trainer - INFO - Iteration 75/100
+2025-10-30 07:26:16,160 - nlmfsp.trainer - INFO -   L_IPF (fwd): 1.650630
+2025-10-30 07:26:16,160 - nlmfsp.trainer - INFO -   L_IPF (bwd): 0.617381
+2025-10-30 07:26:16,160 - nlmfsp.trainer - INFO -   L_TD  (bwd): 21.609169
+2025-10-30 07:26:16,160 - nlmfsp.trainer - INFO -   L_TD  (fwd): 21.205591
+2025-10-30 07:26:16,160 - nlmfsp.trainer - INFO -   L_FK (fwd): 2.604071
+2025-10-30 07:26:16,160 - nlmfsp.trainer - INFO -   L_FK (bwd): 3.341339
+2025-10-30 07:26:16,160 - nlmfsp.trainer - INFO -   L_Boundary (fwd): 0.330201
+2025-10-30 07:26:16,160 - nlmfsp.trainer - INFO -   L_Boundary (bwd): 2.060571
+2025-10-30 07:26:16,160 - nlmfsp.trainer - INFO -   Interaction learning: skipped
+2025-10-30 07:26:16,160 - nlmfsp.trainer - INFO -   Time: 108.11s
+2025-10-30 07:26:16,160 - nlmfsp.trainer - INFO - 
+2025-10-30 07:26:16,180 - nlmfsp.trainer - INFO - Checkpoint saved: outputs/experiments/analytical_gmm_navigation/exp_20251030_050837_lry1e-03_lrz5e-04_n200_ipf1_td1_fk1_b1_ema0.990/checkpoints/checkpoint_0075.pt
+2025-10-30 07:26:18,148 - nlmfsp.trainer - INFO - Iteration 76/100
+2025-10-30 07:28:06,318 - nlmfsp.trainer - INFO -   L_IPF (fwd): 1.737932
+2025-10-30 07:28:06,319 - nlmfsp.trainer - INFO -   L_IPF (bwd): 0.606490
+2025-10-30 07:28:06,319 - nlmfsp.trainer - INFO -   L_TD  (bwd): 20.676794
+2025-10-30 07:28:06,319 - nlmfsp.trainer - INFO -   L_TD  (fwd): 20.236574
+2025-10-30 07:28:06,319 - nlmfsp.trainer - INFO -   L_FK (fwd): 2.550630
+2025-10-30 07:28:06,319 - nlmfsp.trainer - INFO -   L_FK (bwd): 3.333114
+2025-10-30 07:28:06,319 - nlmfsp.trainer - INFO -   L_Boundary (fwd): 0.355104
+2025-10-30 07:28:06,319 - nlmfsp.trainer - INFO -   L_Boundary (bwd): 1.759971
+2025-10-30 07:28:06,319 - nlmfsp.trainer - INFO -   Interaction learning: skipped
+2025-10-30 07:28:06,319 - nlmfsp.trainer - INFO -   Time: 108.17s
+2025-10-30 07:28:06,319 - nlmfsp.trainer - INFO - 
+2025-10-30 07:28:06,338 - nlmfsp.trainer - INFO - Checkpoint saved: outputs/experiments/analytical_gmm_navigation/exp_20251030_050837_lry1e-03_lrz5e-04_n200_ipf1_td1_fk1_b1_ema0.990/checkpoints/checkpoint_0076.pt
+2025-10-30 07:28:08,330 - nlmfsp.trainer - INFO - Iteration 77/100
+2025-10-30 07:29:56,329 - nlmfsp.trainer - INFO -   L_IPF (fwd): 1.749509
+2025-10-30 07:29:56,329 - nlmfsp.trainer - INFO -   L_IPF (bwd): 0.649236
+2025-10-30 07:29:56,330 - nlmfsp.trainer - INFO -   L_TD  (bwd): 19.210310
+2025-10-30 07:29:56,330 - nlmfsp.trainer - INFO -   L_TD  (fwd): 19.909000
+2025-10-30 07:29:56,330 - nlmfsp.trainer - INFO -   L_FK (fwd): 2.525501
+2025-10-30 07:29:56,330 - nlmfsp.trainer - INFO -   L_FK (bwd): 3.356665
+2025-10-30 07:29:56,330 - nlmfsp.trainer - INFO -   L_Boundary (fwd): 0.304313
+2025-10-30 07:29:56,330 - nlmfsp.trainer - INFO -   L_Boundary (bwd): 2.000476
+2025-10-30 07:29:56,330 - nlmfsp.trainer - INFO -   Interaction learning: skipped
+2025-10-30 07:29:56,330 - nlmfsp.trainer - INFO -   Time: 108.00s
+2025-10-30 07:29:56,330 - nlmfsp.trainer - INFO - 
+2025-10-30 07:29:56,349 - nlmfsp.trainer - INFO - Checkpoint saved: outputs/experiments/analytical_gmm_navigation/exp_20251030_050837_lry1e-03_lrz5e-04_n200_ipf1_td1_fk1_b1_ema0.990/checkpoints/checkpoint_0077.pt
+2025-10-30 07:29:58,366 - nlmfsp.trainer - INFO - Iteration 78/100
+2025-10-30 07:31:46,490 - nlmfsp.trainer - INFO -   L_IPF (fwd): 1.743467
+2025-10-30 07:31:46,490 - nlmfsp.trainer - INFO -   L_IPF (bwd): 0.654242
+2025-10-30 07:31:46,490 - nlmfsp.trainer - INFO -   L_TD  (bwd): 19.116835
+2025-10-30 07:31:46,490 - nlmfsp.trainer - INFO -   L_TD  (fwd): 17.922308
+2025-10-30 07:31:46,490 - nlmfsp.trainer - INFO -   L_FK (fwd): 2.423260
+2025-10-30 07:31:46,490 - nlmfsp.trainer - INFO -   L_FK (bwd): 3.334240
+2025-10-30 07:31:46,490 - nlmfsp.trainer - INFO -   L_Boundary (fwd): 0.326050
+2025-10-30 07:31:46,491 - nlmfsp.trainer - INFO -   L_Boundary (bwd): 1.629328
+2025-10-30 07:31:46,491 - nlmfsp.trainer - INFO -   Interaction learning: skipped
+2025-10-30 07:31:46,491 - nlmfsp.trainer - INFO -   Time: 108.12s
+2025-10-30 07:31:46,491 - nlmfsp.trainer - INFO - 
+2025-10-30 07:31:46,510 - nlmfsp.trainer - INFO - Checkpoint saved: outputs/experiments/analytical_gmm_navigation/exp_20251030_050837_lry1e-03_lrz5e-04_n200_ipf1_td1_fk1_b1_ema0.990/checkpoints/checkpoint_0078.pt
+2025-10-30 07:31:48,799 - nlmfsp.trainer - INFO - Iteration 79/100
+2025-10-30 07:33:36,789 - nlmfsp.trainer - INFO -   L_IPF (fwd): 1.804075
+2025-10-30 07:33:36,790 - nlmfsp.trainer - INFO -   L_IPF (bwd): 0.630070
+2025-10-30 07:33:36,790 - nlmfsp.trainer - INFO -   L_TD  (bwd): 18.281805
+2025-10-30 07:33:36,790 - nlmfsp.trainer - INFO -   L_TD  (fwd): 18.413710
+2025-10-30 07:33:36,790 - nlmfsp.trainer - INFO -   L_FK (fwd): 2.433038
+2025-10-30 07:33:36,790 - nlmfsp.trainer - INFO -   L_FK (bwd): 3.270024
+2025-10-30 07:33:36,790 - nlmfsp.trainer - INFO -   L_Boundary (fwd): 0.327060
+2025-10-30 07:33:36,790 - nlmfsp.trainer - INFO -   L_Boundary (bwd): 1.981639
+2025-10-30 07:33:36,790 - nlmfsp.trainer - INFO -   Interaction learning: skipped
+2025-10-30 07:33:36,790 - nlmfsp.trainer - INFO -   Time: 107.99s
+2025-10-30 07:33:36,790 - nlmfsp.trainer - INFO - 
+2025-10-30 07:33:36,809 - nlmfsp.trainer - INFO - Checkpoint saved: outputs/experiments/analytical_gmm_navigation/exp_20251030_050837_lry1e-03_lrz5e-04_n200_ipf1_td1_fk1_b1_ema0.990/checkpoints/checkpoint_0079.pt
+2025-10-30 07:33:38,841 - nlmfsp.trainer - INFO - Iteration 80/100
+2025-10-30 07:35:26,830 - nlmfsp.trainer - INFO -   L_IPF (fwd): 1.783034
+2025-10-30 07:35:26,830 - nlmfsp.trainer - INFO -   L_IPF (bwd): 0.655467
+2025-10-30 07:35:26,830 - nlmfsp.trainer - INFO -   L_TD  (bwd): 16.439312
+2025-10-30 07:35:26,830 - nlmfsp.trainer - INFO -   L_TD  (fwd): 20.725224
+2025-10-30 07:35:26,830 - nlmfsp.trainer - INFO -   L_FK (fwd): 2.475846
+2025-10-30 07:35:26,830 - nlmfsp.trainer - INFO -   L_FK (bwd): 3.242955
+2025-10-30 07:35:26,830 - nlmfsp.trainer - INFO -   L_Boundary (fwd): 0.300477
+2025-10-30 07:35:26,830 - nlmfsp.trainer - INFO -   L_Boundary (bwd): 1.639100
+2025-10-30 07:35:26,830 - nlmfsp.trainer - INFO -   Interaction learning: skipped
+2025-10-30 07:35:26,830 - nlmfsp.trainer - INFO -   Time: 107.99s
+2025-10-30 07:35:26,830 - nlmfsp.trainer - INFO - 
+2025-10-30 07:35:26,851 - nlmfsp.trainer - INFO - Checkpoint saved: outputs/experiments/analytical_gmm_navigation/exp_20251030_050837_lry1e-03_lrz5e-04_n200_ipf1_td1_fk1_b1_ema0.990/checkpoints/checkpoint_0080.pt
+2025-10-30 07:35:29,141 - nlmfsp.trainer - INFO - Iteration 81/100
+2025-10-30 07:37:17,229 - nlmfsp.trainer - INFO -   L_IPF (fwd): 1.823699
+2025-10-30 07:37:17,230 - nlmfsp.trainer - INFO -   L_IPF (bwd): 0.625908
+2025-10-30 07:37:17,230 - nlmfsp.trainer - INFO -   L_TD  (bwd): 18.236528
+2025-10-30 07:37:17,230 - nlmfsp.trainer - INFO -   L_TD  (fwd): 20.230906
+2025-10-30 07:37:17,230 - nlmfsp.trainer - INFO -   L_FK (fwd): 2.435466
+2025-10-30 07:37:17,230 - nlmfsp.trainer - INFO -   L_FK (bwd): 3.242494
+2025-10-30 07:37:17,230 - nlmfsp.trainer - INFO -   L_Boundary (fwd): 0.312512
+2025-10-30 07:37:17,230 - nlmfsp.trainer - INFO -   L_Boundary (bwd): 1.581388
+2025-10-30 07:37:17,230 - nlmfsp.trainer - INFO -   Interaction learning: skipped
+2025-10-30 07:37:17,230 - nlmfsp.trainer - INFO -   Time: 108.09s
+2025-10-30 07:37:17,230 - nlmfsp.trainer - INFO - 
+2025-10-30 07:37:17,250 - nlmfsp.trainer - INFO - Checkpoint saved: outputs/experiments/analytical_gmm_navigation/exp_20251030_050837_lry1e-03_lrz5e-04_n200_ipf1_td1_fk1_b1_ema0.990/checkpoints/checkpoint_0081.pt
+2025-10-30 07:37:19,312 - nlmfsp.trainer - INFO - Iteration 82/100
+2025-10-30 07:39:07,482 - nlmfsp.trainer - INFO -   L_IPF (fwd): 1.760688
+2025-10-30 07:39:07,482 - nlmfsp.trainer - INFO -   L_IPF (bwd): 0.633960
+2025-10-30 07:39:07,483 - nlmfsp.trainer - INFO -   L_TD  (bwd): 17.885355
+2025-10-30 07:39:07,483 - nlmfsp.trainer - INFO -   L_TD  (fwd): 19.110014
+2025-10-30 07:39:07,483 - nlmfsp.trainer - INFO -   L_FK (fwd): 2.397678
+2025-10-30 07:39:07,483 - nlmfsp.trainer - INFO -   L_FK (bwd): 3.218403
+2025-10-30 07:39:07,483 - nlmfsp.trainer - INFO -   L_Boundary (fwd): 0.353016
+2025-10-30 07:39:07,483 - nlmfsp.trainer - INFO -   L_Boundary (bwd): 1.635858
+2025-10-30 07:39:07,483 - nlmfsp.trainer - INFO -   Interaction learning: skipped
+2025-10-30 07:39:07,483 - nlmfsp.trainer - INFO -   Time: 108.17s
+2025-10-30 07:39:07,483 - nlmfsp.trainer - INFO - 
+2025-10-30 07:39:07,502 - nlmfsp.trainer - INFO - Checkpoint saved: outputs/experiments/analytical_gmm_navigation/exp_20251030_050837_lry1e-03_lrz5e-04_n200_ipf1_td1_fk1_b1_ema0.990/checkpoints/checkpoint_0082.pt
+2025-10-30 07:39:09,814 - nlmfsp.trainer - INFO - Iteration 83/100
+2025-10-30 07:40:57,968 - nlmfsp.trainer - INFO -   L_IPF (fwd): 1.657672
+2025-10-30 07:40:57,968 - nlmfsp.trainer - INFO -   L_IPF (bwd): 0.611386
+2025-10-30 07:40:57,969 - nlmfsp.trainer - INFO -   L_TD  (bwd): 17.543692
+2025-10-30 07:40:57,969 - nlmfsp.trainer - INFO -   L_TD  (fwd): 19.689354
+2025-10-30 07:40:57,969 - nlmfsp.trainer - INFO -   L_FK (fwd): 2.371131
+2025-10-30 07:40:57,969 - nlmfsp.trainer - INFO -   L_FK (bwd): 3.258221
+2025-10-30 07:40:57,969 - nlmfsp.trainer - INFO -   L_Boundary (fwd): 0.279741
+2025-10-30 07:40:57,969 - nlmfsp.trainer - INFO -   L_Boundary (bwd): 1.700627
+2025-10-30 07:40:57,969 - nlmfsp.trainer - INFO -   Interaction learning: skipped
+2025-10-30 07:40:57,969 - nlmfsp.trainer - INFO -   Time: 108.15s
+2025-10-30 07:40:57,969 - nlmfsp.trainer - INFO - 
+2025-10-30 07:40:57,988 - nlmfsp.trainer - INFO - Checkpoint saved: outputs/experiments/analytical_gmm_navigation/exp_20251030_050837_lry1e-03_lrz5e-04_n200_ipf1_td1_fk1_b1_ema0.990/checkpoints/checkpoint_0083.pt
+2025-10-30 07:40:59,935 - nlmfsp.trainer - INFO - Iteration 84/100
+2025-10-30 07:42:48,048 - nlmfsp.trainer - INFO -   L_IPF (fwd): 1.632998
+2025-10-30 07:42:48,048 - nlmfsp.trainer - INFO -   L_IPF (bwd): 0.598675
+2025-10-30 07:42:48,048 - nlmfsp.trainer - INFO -   L_TD  (bwd): 19.097044
+2025-10-30 07:42:48,048 - nlmfsp.trainer - INFO -   L_TD  (fwd): 20.590801
+2025-10-30 07:42:48,048 - nlmfsp.trainer - INFO -   L_FK (fwd): 2.362815
+2025-10-30 07:42:48,048 - nlmfsp.trainer - INFO -   L_FK (bwd): 3.273375
+2025-10-30 07:42:48,048 - nlmfsp.trainer - INFO -   L_Boundary (fwd): 0.292974
+2025-10-30 07:42:48,048 - nlmfsp.trainer - INFO -   L_Boundary (bwd): 1.865512
+2025-10-30 07:42:48,048 - nlmfsp.trainer - INFO -   Interaction learning: skipped
+2025-10-30 07:42:48,048 - nlmfsp.trainer - INFO -   Time: 108.11s
+2025-10-30 07:42:48,048 - nlmfsp.trainer - INFO - 
+2025-10-30 07:42:48,068 - nlmfsp.trainer - INFO - Checkpoint saved: outputs/experiments/analytical_gmm_navigation/exp_20251030_050837_lry1e-03_lrz5e-04_n200_ipf1_td1_fk1_b1_ema0.990/checkpoints/checkpoint_0084.pt
+2025-10-30 07:42:50,302 - nlmfsp.trainer - INFO - Iteration 85/100
+2025-10-30 07:44:38,496 - nlmfsp.trainer - INFO -   L_IPF (fwd): 1.635978
+2025-10-30 07:44:38,496 - nlmfsp.trainer - INFO -   L_IPF (bwd): 0.598836
+2025-10-30 07:44:38,496 - nlmfsp.trainer - INFO -   L_TD  (bwd): 17.698332
+2025-10-30 07:44:38,496 - nlmfsp.trainer - INFO -   L_TD  (fwd): 20.324417
+2025-10-30 07:44:38,496 - nlmfsp.trainer - INFO -   L_FK (fwd): 2.323429
+2025-10-30 07:44:38,496 - nlmfsp.trainer - INFO -   L_FK (bwd): 3.262373
+2025-10-30 07:44:38,496 - nlmfsp.trainer - INFO -   L_Boundary (fwd): 0.279121
+2025-10-30 07:44:38,496 - nlmfsp.trainer - INFO -   L_Boundary (bwd): 1.560586
+2025-10-30 07:44:38,496 - nlmfsp.trainer - INFO -   Interaction learning: skipped
+2025-10-30 07:44:38,496 - nlmfsp.trainer - INFO -   Time: 108.19s
+2025-10-30 07:44:38,496 - nlmfsp.trainer - INFO - 
+2025-10-30 07:44:38,516 - nlmfsp.trainer - INFO - Checkpoint saved: outputs/experiments/analytical_gmm_navigation/exp_20251030_050837_lry1e-03_lrz5e-04_n200_ipf1_td1_fk1_b1_ema0.990/checkpoints/checkpoint_0085.pt
+2025-10-30 07:44:40,470 - nlmfsp.trainer - INFO - Iteration 86/100
+2025-10-30 07:46:28,701 - nlmfsp.trainer - INFO -   L_IPF (fwd): 1.607997
+2025-10-30 07:46:28,702 - nlmfsp.trainer - INFO -   L_IPF (bwd): 0.587276
+2025-10-30 07:46:28,702 - nlmfsp.trainer - INFO -   L_TD  (bwd): 17.321962
+2025-10-30 07:46:28,702 - nlmfsp.trainer - INFO -   L_TD  (fwd): 21.018835
+2025-10-30 07:46:28,702 - nlmfsp.trainer - INFO -   L_FK (fwd): 2.321307
+2025-10-30 07:46:28,702 - nlmfsp.trainer - INFO -   L_FK (bwd): 3.278056
+2025-10-30 07:46:28,702 - nlmfsp.trainer - INFO -   L_Boundary (fwd): 0.339901
+2025-10-30 07:46:28,702 - nlmfsp.trainer - INFO -   L_Boundary (bwd): 1.676781
+2025-10-30 07:46:28,702 - nlmfsp.trainer - INFO -   Interaction learning: skipped
+2025-10-30 07:46:28,702 - nlmfsp.trainer - INFO -   Time: 108.23s
+2025-10-30 07:46:28,702 - nlmfsp.trainer - INFO - 
+2025-10-30 07:46:28,722 - nlmfsp.trainer - INFO - Checkpoint saved: outputs/experiments/analytical_gmm_navigation/exp_20251030_050837_lry1e-03_lrz5e-04_n200_ipf1_td1_fk1_b1_ema0.990/checkpoints/checkpoint_0086.pt
+2025-10-30 07:46:30,989 - nlmfsp.trainer - INFO - Iteration 87/100
+2025-10-30 07:48:19,215 - nlmfsp.trainer - INFO -   L_IPF (fwd): 1.571927
+2025-10-30 07:48:19,215 - nlmfsp.trainer - INFO -   L_IPF (bwd): 0.605721
+2025-10-30 07:48:19,215 - nlmfsp.trainer - INFO -   L_TD  (bwd): 16.749954
+2025-10-30 07:48:19,215 - nlmfsp.trainer - INFO -   L_TD  (fwd): 21.310928
+2025-10-30 07:48:19,215 - nlmfsp.trainer - INFO -   L_FK (fwd): 2.283338
+2025-10-30 07:48:19,215 - nlmfsp.trainer - INFO -   L_FK (bwd): 3.262869
+2025-10-30 07:48:19,215 - nlmfsp.trainer - INFO -   L_Boundary (fwd): 0.332419
+2025-10-30 07:48:19,215 - nlmfsp.trainer - INFO -   L_Boundary (bwd): 1.474802
+2025-10-30 07:48:19,215 - nlmfsp.trainer - INFO -   Interaction learning: skipped
+2025-10-30 07:48:19,216 - nlmfsp.trainer - INFO -   Time: 108.23s
+2025-10-30 07:48:19,216 - nlmfsp.trainer - INFO - 
+2025-10-30 07:48:19,235 - nlmfsp.trainer - INFO - Checkpoint saved: outputs/experiments/analytical_gmm_navigation/exp_20251030_050837_lry1e-03_lrz5e-04_n200_ipf1_td1_fk1_b1_ema0.990/checkpoints/checkpoint_0087.pt
+2025-10-30 07:48:21,139 - nlmfsp.trainer - INFO - Iteration 88/100
+2025-10-30 07:50:09,307 - nlmfsp.trainer - INFO -   L_IPF (fwd): 1.488662
+2025-10-30 07:50:09,307 - nlmfsp.trainer - INFO -   L_IPF (bwd): 0.629029
+2025-10-30 07:50:09,307 - nlmfsp.trainer - INFO -   L_TD  (bwd): 16.033730
+2025-10-30 07:50:09,307 - nlmfsp.trainer - INFO -   L_TD  (fwd): 18.261026
+2025-10-30 07:50:09,307 - nlmfsp.trainer - INFO -   L_FK (fwd): 2.167173
+2025-10-30 07:50:09,307 - nlmfsp.trainer - INFO -   L_FK (bwd): 3.218479
+2025-10-30 07:50:09,307 - nlmfsp.trainer - INFO -   L_Boundary (fwd): 0.280827
+2025-10-30 07:50:09,307 - nlmfsp.trainer - INFO -   L_Boundary (bwd): 1.492215
+2025-10-30 07:50:09,307 - nlmfsp.trainer - INFO -   Interaction learning: skipped
+2025-10-30 07:50:09,307 - nlmfsp.trainer - INFO -   Time: 108.17s
+2025-10-30 07:50:09,307 - nlmfsp.trainer - INFO - 
+2025-10-30 07:50:09,328 - nlmfsp.trainer - INFO - Checkpoint saved: outputs/experiments/analytical_gmm_navigation/exp_20251030_050837_lry1e-03_lrz5e-04_n200_ipf1_td1_fk1_b1_ema0.990/checkpoints/checkpoint_0088.pt
+2025-10-30 07:50:11,273 - nlmfsp.trainer - INFO - Iteration 89/100
+2025-10-30 07:51:59,491 - nlmfsp.trainer - INFO -   L_IPF (fwd): 1.415427
+2025-10-30 07:51:59,491 - nlmfsp.trainer - INFO -   L_IPF (bwd): 0.579437
+2025-10-30 07:51:59,491 - nlmfsp.trainer - INFO -   L_TD  (bwd): 15.431975
+2025-10-30 07:51:59,491 - nlmfsp.trainer - INFO -   L_TD  (fwd): 18.245157
+2025-10-30 07:51:59,491 - nlmfsp.trainer - INFO -   L_FK (fwd): 2.180938
+2025-10-30 07:51:59,491 - nlmfsp.trainer - INFO -   L_FK (bwd): 3.195018
+2025-10-30 07:51:59,491 - nlmfsp.trainer - INFO -   L_Boundary (fwd): 0.269223
+2025-10-30 07:51:59,491 - nlmfsp.trainer - INFO -   L_Boundary (bwd): 1.938222
+2025-10-30 07:51:59,491 - nlmfsp.trainer - INFO -   Interaction learning: skipped
+2025-10-30 07:51:59,491 - nlmfsp.trainer - INFO -   Time: 108.22s
+2025-10-30 07:51:59,491 - nlmfsp.trainer - INFO - 
+2025-10-30 07:51:59,511 - nlmfsp.trainer - INFO - Checkpoint saved: outputs/experiments/analytical_gmm_navigation/exp_20251030_050837_lry1e-03_lrz5e-04_n200_ipf1_td1_fk1_b1_ema0.990/checkpoints/checkpoint_0089.pt
+2025-10-30 07:52:01,765 - nlmfsp.trainer - INFO - Iteration 90/100
+2025-10-30 07:53:49,840 - nlmfsp.trainer - INFO -   L_IPF (fwd): 1.355222
+2025-10-30 07:53:49,841 - nlmfsp.trainer - INFO -   L_IPF (bwd): 0.600512
+2025-10-30 07:53:49,841 - nlmfsp.trainer - INFO -   L_TD  (bwd): 15.290195
+2025-10-30 07:53:49,841 - nlmfsp.trainer - INFO -   L_TD  (fwd): 16.466291
+2025-10-30 07:53:49,841 - nlmfsp.trainer - INFO -   L_FK (fwd): 2.136914
+2025-10-30 07:53:49,841 - nlmfsp.trainer - INFO -   L_FK (bwd): 3.146461
+2025-10-30 07:53:49,841 - nlmfsp.trainer - INFO -   L_Boundary (fwd): 0.216086
+2025-10-30 07:53:49,841 - nlmfsp.trainer - INFO -   L_Boundary (bwd): 1.486247
+2025-10-30 07:53:49,841 - nlmfsp.trainer - INFO -   Interaction learning: skipped
+2025-10-30 07:53:49,841 - nlmfsp.trainer - INFO -   Time: 108.08s
+2025-10-30 07:53:49,841 - nlmfsp.trainer - INFO - 
+2025-10-30 07:53:49,861 - nlmfsp.trainer - INFO - Checkpoint saved: outputs/experiments/analytical_gmm_navigation/exp_20251030_050837_lry1e-03_lrz5e-04_n200_ipf1_td1_fk1_b1_ema0.990/checkpoints/checkpoint_0090.pt
+2025-10-30 07:53:51,791 - nlmfsp.trainer - INFO - Iteration 91/100
+2025-10-30 07:55:39,884 - nlmfsp.trainer - INFO -   L_IPF (fwd): 1.328957
+2025-10-30 07:55:39,884 - nlmfsp.trainer - INFO -   L_IPF (bwd): 0.543970
+2025-10-30 07:55:39,884 - nlmfsp.trainer - INFO -   L_TD  (bwd): 16.862623
+2025-10-30 07:55:39,884 - nlmfsp.trainer - INFO -   L_TD  (fwd): 17.924629
+2025-10-30 07:55:39,884 - nlmfsp.trainer - INFO -   L_FK (fwd): 2.146965
+2025-10-30 07:55:39,884 - nlmfsp.trainer - INFO -   L_FK (bwd): 3.109092
+2025-10-30 07:55:39,884 - nlmfsp.trainer - INFO -   L_Boundary (fwd): 0.228713
+2025-10-30 07:55:39,884 - nlmfsp.trainer - INFO -   L_Boundary (bwd): 1.267028
+2025-10-30 07:55:39,884 - nlmfsp.trainer - INFO -   Interaction learning: skipped
+2025-10-30 07:55:39,884 - nlmfsp.trainer - INFO -   Time: 108.09s
+2025-10-30 07:55:39,884 - nlmfsp.trainer - INFO - 
+2025-10-30 07:55:39,904 - nlmfsp.trainer - INFO - Checkpoint saved: outputs/experiments/analytical_gmm_navigation/exp_20251030_050837_lry1e-03_lrz5e-04_n200_ipf1_td1_fk1_b1_ema0.990/checkpoints/checkpoint_0091.pt
+2025-10-30 07:55:42,137 - nlmfsp.trainer - INFO - Iteration 92/100
+2025-10-30 07:57:30,315 - nlmfsp.trainer - INFO -   L_IPF (fwd): 1.287026
+2025-10-30 07:57:30,316 - nlmfsp.trainer - INFO -   L_IPF (bwd): 0.535657
+2025-10-30 07:57:30,316 - nlmfsp.trainer - INFO -   L_TD  (bwd): 16.368237
+2025-10-30 07:57:30,316 - nlmfsp.trainer - INFO -   L_TD  (fwd): 19.876085
+2025-10-30 07:57:30,316 - nlmfsp.trainer - INFO -   L_FK (fwd): 2.179971
+2025-10-30 07:57:30,316 - nlmfsp.trainer - INFO -   L_FK (bwd): 3.089546
+2025-10-30 07:57:30,316 - nlmfsp.trainer - INFO -   L_Boundary (fwd): 0.244098
+2025-10-30 07:57:30,316 - nlmfsp.trainer - INFO -   L_Boundary (bwd): 1.636824
+2025-10-30 07:57:30,316 - nlmfsp.trainer - INFO -   Interaction learning: skipped
+2025-10-30 07:57:30,316 - nlmfsp.trainer - INFO -   Time: 108.18s
+2025-10-30 07:57:30,316 - nlmfsp.trainer - INFO - 
+2025-10-30 07:57:30,336 - nlmfsp.trainer - INFO - Checkpoint saved: outputs/experiments/analytical_gmm_navigation/exp_20251030_050837_lry1e-03_lrz5e-04_n200_ipf1_td1_fk1_b1_ema0.990/checkpoints/checkpoint_0092.pt
+2025-10-30 07:57:32,225 - nlmfsp.trainer - INFO - Iteration 93/100
+2025-10-30 07:59:20,469 - nlmfsp.trainer - INFO -   L_IPF (fwd): 1.221247
+2025-10-30 07:59:20,470 - nlmfsp.trainer - INFO -   L_IPF (bwd): 0.498385
+2025-10-30 07:59:20,470 - nlmfsp.trainer - INFO -   L_TD  (bwd): 16.599646
+2025-10-30 07:59:20,470 - nlmfsp.trainer - INFO -   L_TD  (fwd): 19.965757
+2025-10-30 07:59:20,470 - nlmfsp.trainer - INFO -   L_FK (fwd): 2.213617
+2025-10-30 07:59:20,470 - nlmfsp.trainer - INFO -   L_FK (bwd): 3.059275
+2025-10-30 07:59:20,470 - nlmfsp.trainer - INFO -   L_Boundary (fwd): 0.358397
+2025-10-30 07:59:20,470 - nlmfsp.trainer - INFO -   L_Boundary (bwd): 1.487335
+2025-10-30 07:59:20,470 - nlmfsp.trainer - INFO -   Interaction learning: skipped
+2025-10-30 07:59:20,470 - nlmfsp.trainer - INFO -   Time: 108.24s
+2025-10-30 07:59:20,470 - nlmfsp.trainer - INFO - 
+2025-10-30 07:59:20,490 - nlmfsp.trainer - INFO - Checkpoint saved: outputs/experiments/analytical_gmm_navigation/exp_20251030_050837_lry1e-03_lrz5e-04_n200_ipf1_td1_fk1_b1_ema0.990/checkpoints/checkpoint_0093.pt
+2025-10-30 07:59:22,756 - nlmfsp.trainer - INFO - Iteration 94/100
+2025-10-30 08:01:11,150 - nlmfsp.trainer - INFO -   L_IPF (fwd): 1.232922
+2025-10-30 08:01:11,150 - nlmfsp.trainer - INFO -   L_IPF (bwd): 0.502847
+2025-10-30 08:01:11,150 - nlmfsp.trainer - INFO -   L_TD  (bwd): 16.441349
+2025-10-30 08:01:11,150 - nlmfsp.trainer - INFO -   L_TD  (fwd): 21.086861
+2025-10-30 08:01:11,150 - nlmfsp.trainer - INFO -   L_FK (fwd): 2.236452
+2025-10-30 08:01:11,150 - nlmfsp.trainer - INFO -   L_FK (bwd): 2.991920
+2025-10-30 08:01:11,150 - nlmfsp.trainer - INFO -   L_Boundary (fwd): 0.281726
+2025-10-30 08:01:11,150 - nlmfsp.trainer - INFO -   L_Boundary (bwd): 1.460500
+2025-10-30 08:01:11,150 - nlmfsp.trainer - INFO -   Interaction learning: skipped
+2025-10-30 08:01:11,150 - nlmfsp.trainer - INFO -   Time: 108.39s
+2025-10-30 08:01:11,150 - nlmfsp.trainer - INFO - 
+2025-10-30 08:01:11,170 - nlmfsp.trainer - INFO - Checkpoint saved: outputs/experiments/analytical_gmm_navigation/exp_20251030_050837_lry1e-03_lrz5e-04_n200_ipf1_td1_fk1_b1_ema0.990/checkpoints/checkpoint_0094.pt
+2025-10-30 08:01:13,099 - nlmfsp.trainer - INFO - Iteration 95/100
+2025-10-30 08:03:01,242 - nlmfsp.trainer - INFO -   L_IPF (fwd): 1.202214
+2025-10-30 08:03:01,242 - nlmfsp.trainer - INFO -   L_IPF (bwd): 0.533437
+2025-10-30 08:03:01,242 - nlmfsp.trainer - INFO -   L_TD  (bwd): 17.226151
+2025-10-30 08:03:01,242 - nlmfsp.trainer - INFO -   L_TD  (fwd): 25.511589
+2025-10-30 08:03:01,242 - nlmfsp.trainer - INFO -   L_FK (fwd): 2.351038
+2025-10-30 08:03:01,242 - nlmfsp.trainer - INFO -   L_FK (bwd): 2.965274
+2025-10-30 08:03:01,242 - nlmfsp.trainer - INFO -   L_Boundary (fwd): 0.345356
+2025-10-30 08:03:01,242 - nlmfsp.trainer - INFO -   L_Boundary (bwd): 1.380029
+2025-10-30 08:03:01,242 - nlmfsp.trainer - INFO -   Interaction learning: skipped
+2025-10-30 08:03:01,242 - nlmfsp.trainer - INFO -   Time: 108.14s
+2025-10-30 08:03:01,242 - nlmfsp.trainer - INFO - 
+2025-10-30 08:03:01,264 - nlmfsp.trainer - INFO - Checkpoint saved: outputs/experiments/analytical_gmm_navigation/exp_20251030_050837_lry1e-03_lrz5e-04_n200_ipf1_td1_fk1_b1_ema0.990/checkpoints/checkpoint_0095.pt
+2025-10-30 08:03:03,202 - nlmfsp.trainer - INFO - Iteration 96/100
+2025-10-30 08:04:51,285 - nlmfsp.trainer - INFO -   L_IPF (fwd): 1.162769
+2025-10-30 08:04:51,286 - nlmfsp.trainer - INFO -   L_IPF (bwd): 0.501522
+2025-10-30 08:04:51,286 - nlmfsp.trainer - INFO -   L_TD  (bwd): 14.948968
+2025-10-30 08:04:51,286 - nlmfsp.trainer - INFO -   L_TD  (fwd): 24.366421
+2025-10-30 08:04:51,286 - nlmfsp.trainer - INFO -   L_FK (fwd): 2.342167
+2025-10-30 08:04:51,286 - nlmfsp.trainer - INFO -   L_FK (bwd): 2.928876
+2025-10-30 08:04:51,286 - nlmfsp.trainer - INFO -   L_Boundary (fwd): 0.329744
+2025-10-30 08:04:51,286 - nlmfsp.trainer - INFO -   L_Boundary (bwd): 1.328652
+2025-10-30 08:04:51,286 - nlmfsp.trainer - INFO -   Interaction learning: skipped
+2025-10-30 08:04:51,286 - nlmfsp.trainer - INFO -   Time: 108.08s
+2025-10-30 08:04:51,286 - nlmfsp.trainer - INFO - 
+2025-10-30 08:04:51,306 - nlmfsp.trainer - INFO - Checkpoint saved: outputs/experiments/analytical_gmm_navigation/exp_20251030_050837_lry1e-03_lrz5e-04_n200_ipf1_td1_fk1_b1_ema0.990/checkpoints/checkpoint_0096.pt
+2025-10-30 08:04:53,604 - nlmfsp.trainer - INFO - Iteration 97/100
+2025-10-30 08:06:41,808 - nlmfsp.trainer - INFO -   L_IPF (fwd): 1.136646
+2025-10-30 08:06:41,809 - nlmfsp.trainer - INFO -   L_IPF (bwd): 0.505120
+2025-10-30 08:06:41,809 - nlmfsp.trainer - INFO -   L_TD  (bwd): 16.959967
+2025-10-30 08:06:41,809 - nlmfsp.trainer - INFO -   L_TD  (fwd): 24.485254
+2025-10-30 08:06:41,809 - nlmfsp.trainer - INFO -   L_FK (fwd): 2.296426
+2025-10-30 08:06:41,809 - nlmfsp.trainer - INFO -   L_FK (bwd): 2.974284
+2025-10-30 08:06:41,809 - nlmfsp.trainer - INFO -   L_Boundary (fwd): 0.278074
+2025-10-30 08:06:41,809 - nlmfsp.trainer - INFO -   L_Boundary (bwd): 1.554591
+2025-10-30 08:06:41,809 - nlmfsp.trainer - INFO -   Interaction learning: skipped
+2025-10-30 08:06:41,809 - nlmfsp.trainer - INFO -   Time: 108.20s
+2025-10-30 08:06:41,809 - nlmfsp.trainer - INFO - 
+2025-10-30 08:06:41,829 - nlmfsp.trainer - INFO - Checkpoint saved: outputs/experiments/analytical_gmm_navigation/exp_20251030_050837_lry1e-03_lrz5e-04_n200_ipf1_td1_fk1_b1_ema0.990/checkpoints/checkpoint_0097.pt
+2025-10-30 08:06:43,753 - nlmfsp.trainer - INFO - Iteration 98/100
+2025-10-30 08:08:32,143 - nlmfsp.trainer - INFO -   L_IPF (fwd): 1.156685
+2025-10-30 08:08:32,144 - nlmfsp.trainer - INFO -   L_IPF (bwd): 0.481144
+2025-10-30 08:08:32,144 - nlmfsp.trainer - INFO -   L_TD  (bwd): 16.402407
+2025-10-30 08:08:32,144 - nlmfsp.trainer - INFO -   L_TD  (fwd): 23.978716
+2025-10-30 08:08:32,144 - nlmfsp.trainer - INFO -   L_FK (fwd): 2.271301
+2025-10-30 08:08:32,144 - nlmfsp.trainer - INFO -   L_FK (bwd): 2.989246
+2025-10-30 08:08:32,144 - nlmfsp.trainer - INFO -   L_Boundary (fwd): 0.295897
+2025-10-30 08:08:32,144 - nlmfsp.trainer - INFO -   L_Boundary (bwd): 1.541156
+2025-10-30 08:08:32,144 - nlmfsp.trainer - INFO -   Interaction learning: skipped
+2025-10-30 08:08:32,144 - nlmfsp.trainer - INFO -   Time: 108.39s
+2025-10-30 08:08:32,144 - nlmfsp.trainer - INFO - 
+2025-10-30 08:08:32,164 - nlmfsp.trainer - INFO - Checkpoint saved: outputs/experiments/analytical_gmm_navigation/exp_20251030_050837_lry1e-03_lrz5e-04_n200_ipf1_td1_fk1_b1_ema0.990/checkpoints/checkpoint_0098.pt
+2025-10-30 08:08:34,383 - nlmfsp.trainer - INFO - Iteration 99/100
+2025-10-30 08:10:22,485 - nlmfsp.trainer - INFO -   L_IPF (fwd): 1.154780
+2025-10-30 08:10:22,486 - nlmfsp.trainer - INFO -   L_IPF (bwd): 0.482133
+2025-10-30 08:10:22,486 - nlmfsp.trainer - INFO -   L_TD  (bwd): 14.255961
+2025-10-30 08:10:22,486 - nlmfsp.trainer - INFO -   L_TD  (fwd): 20.165718
+2025-10-30 08:10:22,486 - nlmfsp.trainer - INFO -   L_FK (fwd): 2.214230
+2025-10-30 08:10:22,486 - nlmfsp.trainer - INFO -   L_FK (bwd): 2.890348
+2025-10-30 08:10:22,486 - nlmfsp.trainer - INFO -   L_Boundary (fwd): 0.330772
+2025-10-30 08:10:22,486 - nlmfsp.trainer - INFO -   L_Boundary (bwd): 1.570378
+2025-10-30 08:10:22,486 - nlmfsp.trainer - INFO -   Interaction learning: skipped
+2025-10-30 08:10:22,486 - nlmfsp.trainer - INFO -   Time: 108.10s
+2025-10-30 08:10:22,486 - nlmfsp.trainer - INFO - 
+2025-10-30 08:10:22,506 - nlmfsp.trainer - INFO - Checkpoint saved: outputs/experiments/analytical_gmm_navigation/exp_20251030_050837_lry1e-03_lrz5e-04_n200_ipf1_td1_fk1_b1_ema0.990/checkpoints/checkpoint_0099.pt
+2025-10-30 08:10:24,406 - nlmfsp.trainer - INFO - Iteration 100/100
+2025-10-30 08:12:12,088 - nlmfsp.trainer - INFO -   L_IPF (fwd): 1.149650
+2025-10-30 08:12:12,088 - nlmfsp.trainer - INFO -   L_IPF (bwd): 0.476021
+2025-10-30 08:12:12,088 - nlmfsp.trainer - INFO -   L_TD  (bwd): 13.296227
+2025-10-30 08:12:12,088 - nlmfsp.trainer - INFO -   L_TD  (fwd): 19.269499
+2025-10-30 08:12:12,088 - nlmfsp.trainer - INFO -   L_FK (fwd): 2.171947
+2025-10-30 08:12:12,088 - nlmfsp.trainer - INFO -   L_FK (bwd): 2.917750
+2025-10-30 08:12:12,088 - nlmfsp.trainer - INFO -   L_Boundary (fwd): 0.235705
+2025-10-30 08:12:12,088 - nlmfsp.trainer - INFO -   L_Boundary (bwd): 1.142313
+2025-10-30 08:12:12,088 - nlmfsp.trainer - INFO -   Interaction learning: skipped
+2025-10-30 08:12:12,088 - nlmfsp.trainer - INFO -   Time: 107.68s
+2025-10-30 08:12:12,088 - nlmfsp.trainer - INFO - 
+2025-10-30 08:12:12,108 - nlmfsp.trainer - INFO - Checkpoint saved: outputs/experiments/analytical_gmm_navigation/exp_20251030_050837_lry1e-03_lrz5e-04_n200_ipf1_td1_fk1_b1_ema0.990/checkpoints/checkpoint_0100.pt
+2025-10-30 08:12:14,284 - nlmfsp.trainer - INFO - 
+2025-10-30 08:12:14,284 - nlmfsp.trainer - INFO - ======================================================================
+2025-10-30 08:12:14,284 - nlmfsp.trainer - INFO - Training Complete
+2025-10-30 08:12:14,284 - nlmfsp.trainer - INFO - ======================================================================
+2025-10-30 08:12:14,284 - nlmfsp.trainer - INFO - Total runtime: 10807.11s
+2025-10-30 08:12:14,302 - nlmfsp.trainer - INFO - Checkpoint saved: outputs/experiments/analytical_gmm_navigation/exp_20251030_050837_lry1e-03_lrz5e-04_n200_ipf1_td1_fk1_b1_ema0.990/checkpoints/checkpoint_final.pt
+2025-10-30 08:12:16,880 - nlmfsp.trainer - INFO - Checkpoint saved: outputs/experiments/analytical_gmm_navigation/exp_20251030_050837_lry1e-03_lrz5e-04_n200_ipf1_td1_fk1_b1_ema0.990/checkpoints/checkpoint_0100.pt
