@@ -41,7 +41,7 @@ $$
 
 ## Applications
 
-- **Control/Navigation** Swarm robotics control with collision avoidance / pedestrian navigation through complex environments
+- **Control/Navigation** Swarm robotics control with collision avoidance / crowd navigation through complex environments
 - **Reconstruction** Cell data interpolation from sparse observations
 
 ---
