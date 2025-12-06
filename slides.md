@@ -29,7 +29,7 @@ transition: fade
 
 ## Optimal transport of interacting particles
 
-For $N$ agents with controls $\{\alpha_i\}$ and empirical measure $m_t = \tfrac{1}{N}\sum_{j=1}^N \delta_{x_j(t)}$:
+For $N$ agents with controls $\{\alpha_i\}$ and empirical measure $m(x,t) = \tfrac{1}{N}\sum_{j=1}^N \delta_{x-x_j(t)}$:
 $$
 \text{min}_{\{\alpha_i\}} \sum_{i=1}^N \bbE\!\left[\int_0^T \frac{1}{2\sigma^2}\|\alpha_i\|^2 + F(x_i,t, m_t)\,dt\right]
 $$
@@ -50,13 +50,13 @@ $$
 
 - If $f=F=0$, this reduces to the classical Schrödinger Bridge, i.e., entropy-regularized OT minimizing $\mathrm{KL}(\rho_0\|\rho_T)$ along diffusion paths.
 
-- Liu et al. (2022): DeepGSB for **local** interactions：$f(x,t,\rho_t) = f(x,t,\rho(x,t))$
+- Liu et al. (2022): DeepGSB for **local** interactions：$f(x,t,m_t)=f(x,t,m(x,t))$
 - We want to build efficient solver for **nonlocal** interactions: 
    $$
-   f(x^{(i)},t,\rho_t) = \frac{1}{N}\sum_{j=1}^N k(x^{(i)},x^{(j)}) \quad \Rightarrow \quad O(N^2) \text{ cost}
+   f(x_i,t,m_t) = f(x_i,t,m(\cdot,t)) = \frac{1}{N}\sum_{j=1}^N k(x_i,x_j)
    $$
 
-- **Problem**: Intractable for large-scale systems
+- **Problem**: $O(N^2)$ cost -> Intractable for large-scale systems
 - **Objective**: Develop an algorithm that remains fast even for large $N$
 
 
@@ -66,7 +66,7 @@ $$
 
 ## Mean-Field Schrödinger Bridge (MFSB)
 
-As $N\to\infty$, the empirical interaction $m_t$ converges to a density $\rho_t$, yielding the MFSB formulation:
+As $N\to\infty$, the empirical interaction $m_t$ converges to a density $\rho_t=\rho(\cdot,t)$, yielding the MFSB formulation:
 
 $$
 \begin{aligned}
@@ -115,7 +115,7 @@ $$\mathcal{L}_{\text{total}} = \lambda_{\text{IPF}}\mathcal{L}_{\text{IPF}} + \l
 #### IPF Loss (Iterative Proportional Fitting)
 
 $$
-\mathcal{L}_{\text{IPF}}(\theta) = \int_0^T \mathbb{E}_{X_t}\left[\frac{1}{2}\|\hat{Z}_t^\phi + Z_\theta^t\|^2 + \nabla \cdot (\sigma Z_\theta^t - f)\right] dt
+\mathcal{L}_{\text{IPF}}(\theta) = \int_0^T \mathbb{E}_{X_t}\left[\frac{1}{2}\|\hat{Z}_t^\phi + Z_t^\theta\|^2 + \nabla \cdot (\sigma Z_t^\theta - f)\right] dt
 $$
 
 - Ensures trajectories satisfy **boundary constraints** $\rho_0 \to \rho_T$
