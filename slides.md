@@ -377,7 +377,6 @@ $$
 ### **What we proved: Stability**
 - **Error Propagation**: Small interaction errors ($\varepsilon_f, \varepsilon_F$) guarantee small trajectory errors ($E(t)$).
 - **Computability**: The growth rate $C_E$ is explicitly determined by system parameters (Lipschitz constants, $\sigma$, $T$).
-- **Verification**: Provides a theoretical check for surrogate model quality.
 
 ### **What remains open: Convergence**
 - The theorem assumes the **existence** of the FBSDE solution.
