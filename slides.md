@@ -534,14 +534,14 @@ $$F(x,t,\rho) = 1500 \sum_{k=1}^3 \max(0, 1.5-\|x-c_k\|)^6$$
 
 ### Analytic Interactions
 
-<img src="./gmm_nav_intdrift2/trajectory.png" width="100%">
+<img src="./gmm_nav_intdrift2/trajectory_forward.gif" width="80%">
 
 </div>
 <div>
 
 ### Learned Interactions
 
-<img src="./gmm_nav_intdrift2/trajectory_learned.png" width="100%">
+<img src="./gmm_nav_intdrift2/trajectory_learned_forward.gif" width="80%">
 
 </div>
 </div>
