@@ -280,7 +280,7 @@ $$
 ### **Assumption 3** (Regularity of Interactions)
 
 - Interactions $(f, F)$ and surrogates $(\hat{f}, \hat{F})$ are **Lipschitz continuous**:
-  $$\|f(x,t,\rho) - f(x',t,\rho')\| \le L_x^{(f)}\|x-x'\| + L_\mu^{(f)} W_2(\rho, \rho')$$
+  $$\|f(x,t,\rho) - f(x',t,\rho)\| \le L_x^{(f)}\|x-x'\| $$
 
 
 ### **Assumption 4** (Boundedness of Gradients)
