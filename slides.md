@@ -31,11 +31,11 @@ transition: fade
 
 For $N$ agents with controls $\{\alpha_i\}$ and empirical measure $m(x,t) = \tfrac{1}{N}\sum_{j=1}^N \delta_{x-x_j(t)}$:
 $$
-\text{min}_{\{\alpha_i\}} \sum_{i=1}^N \bbE\!\left[\int_0^T \frac{1}{2\sigma^2}\|\alpha_i\|^2 + F(x_i,t, m_t)\,dt\right]
+\text{min}_{\{\alpha_i\}} \sum_{i=1}^N \bbE\!\left[\int_0^T \frac{1}{2\sigma^2}\|\alpha_i(t)\|^2 + F(x_i(t),t, m_t)\,dt\right]
 $$
 subject to
 $$
-dx_i = \big(\alpha_i + f(x_i,t, m_t)\big)\,dt + \sigma\, dW_i,\quad
+dx_i(t) = \big(\alpha_i(t) + f(x_i(t),t, m_t)\big)\,dt + \sigma\, dW_i(t),\quad
 x_i(0)\sim\rho_0,\; x_i(T)\sim\rho_T.
 $$
 
@@ -53,7 +53,7 @@ $$
 - Liu et al. (2022): DeepGSB for **local** interactions：$f(x,t,m_t)=f(x,t,m(x,t))$
 - We want to build efficient solver for **nonlocal** interactions: 
    $$
-   f(x_i,t,m_t) = f(x_i,t,m(\cdot,t)) = \frac{1}{N}\sum_{j=1}^N k(x_i,x_j)
+   f(x,t,m_t) = f(x,t,m(\cdot,t)) = \frac{1}{N}\sum_{j=1}^N k(x,x_j(t))
    $$
 
 - **Problem**: $O(N^2)$ cost -> Intractable for large-scale systems
@@ -70,8 +70,8 @@ As $N\to\infty$, the empirical interaction $m_t$ converges to a density $\rho_t=
 
 $$
 \begin{aligned}
-&\min_{\alpha} \int_0^T \int \left[\frac{1}{2\sigma^2}\|\alpha\|^2 + F(x,t,\rho_t) \right] \rho(x,t) \, dx \, dt \\
-&\text{s.t.} \quad \partial_t \rho = -\nabla\cdot[\rho(\alpha + f(x,t,\rho_t))] + \frac{\sigma^2}{2}\Delta \rho \\
+&\min_{\alpha} \int_0^T \int \left[\frac{1}{2\sigma^2}\|\alpha(x,t)\|^2 + F(x,t,\rho_t) \right] \rho(x,t) \, dx \, dt \\
+&\text{s.t.} \quad \partial_t \rho = -\nabla\cdot[\rho(x,t)\, (\alpha(x,t) + f(x,t,\rho_t))] + \frac{\sigma^2}{2}\Delta \rho(x,t) \\
 &\qquad\quad \rho(\cdot, 0) = \rho_0, \quad \rho(\cdot, T) = \rho_T
 \end{aligned}
 $$
