@@ -1,6 +1,6 @@
 ---
 theme: default
-background: null
+background: 
 fonts:
   sans: [ "Poppins", "Noto Sans JP" ]
   serif: "Roboto Slab"
